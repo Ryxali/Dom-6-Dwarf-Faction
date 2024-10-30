@@ -1,0 +1,20 @@
+#newevent
+#rarity 1
+#req_targmnr $55
+#msg "One of your sages were consulted about the records of a dwarf's ancestor. It noted he suffered from a receeding beard line. The dwarf felt slighted by this indisputable fact."
+#assassin $40
+#end
+
+#newevent
+#rarity 1
+#req_targmnr $55
+#msg "One of your sages were consulted about the records of a dwarf's ancestor. It noted an unusually low tolerance of alchohol. The dwarf felt slighted by this indisputable fact."
+#assassin $41
+#end
+
+#newevent
+#rarity 1
+#req_targmnr $55
+#msg "One of your sages were consulted about the records of a dwarf's ancestor. It noted one of their creations being derivative of a junior artisan. The dwarf felt slighted by this indisputable fact."
+#assassin $46
+#end

@@ -1,0 +1,197 @@
+-- Prepare moot
+-- Uses codes $1, $2, $3
+#newevent
+#rarity 0
+#req_season 2
+#req_owncapital 1
+#req_fornation $1
+#nolog
+#req_code 0
+#req_code $2
+#req_code $3
+#code $1
+#msg "Dwarves of Whitebeard and Redbeard clans are gathering for the winter moot in Dûn. For the preservation of the Federation, a shaman of the Redbeard clan and a sage of the Whitebeard clan should be present come winter."
+#end
+
+-- Redbeards wreck
+#newevent
+#rarity 1
+#req_code $1
+#req_owncapital 1
+#req_fornation $1
+#msg "A gang of Redbeards here for the moot trashed one of the local establishments. To avoid further agitation the state has reimbursed the owner."
+#gold -100
+#end
+
+-- Turmoil at moot
+#newevent
+#rarity 1
+#req_code $1
+#req_owncapital 1
+#req_fornation $1
+#msg "A friendly disagreement between a Blackbeard and a Whitebeard quickly turned sour. A brawl ensued."
+#unrest 20
+#end
+
+-- Validate moot (Missing All)
+#newevent
+#rarity 0
+#req_code $1
+#req_season 3
+#req_owncapital 1
+#req_fornation $1
+#req_nomonster $42 -- Redbeard Shaman
+#req_nomonster $46 -- Blackbeard Artisan
+#req_nomonster $55 -- Whitebeard Sage
+#code 0
+#msg "The three clans failed to convene for the moot. This stirs the nation."
+#code $3
+#unrest 50
+#end
+
+-- Validate moot (All present)
+#newevent
+#rarity 0
+#req_code $1
+#req_season 3
+#req_owncapital 1
+#req_fornation $1
+#req_monster $55 -- Redbeard Shaman
+#req_monster $46 -- Blackbeard Artisan
+#req_monster $55 -- Whitebeard Sage
+#msg "All the clans have gathered for the winter moot."
+#code $2
+#end
+
+-- Fire moot (Bad Outcome)
+#newevent
+#rarity 0
+#req_code $2
+#req_season 3
+#req_owncapital 1
+#req_fornation $1
+#req_minunrest 40
+#code 0
+#msg "At the moot a disagreement on the proper ingredients for ale consumed the agenda. No progress was made and many a dwarf are upset."
+#unrest 30
+#end
+
+-- Fire moot (Bad Outcome)
+#newevent
+#rarity 0
+#req_code $2
+#req_season 3
+#req_owncapital 1
+#req_fornation $1
+#req_minunrest 40
+#req_unluck 2
+#req_monster $55 -- Whitebeard Sage
+#code 0
+#msg "The moot concluded after a major disagreement lead to a duel between clans."
+#killmon $55
+#unrest 25
+#end
+
+-- Fire moot (Bad Outcome)
+#newevent
+#rarity 0
+#req_code $2
+#req_season 3
+#req_owncapital 1
+#req_fornation $1
+#req_minunrest 40
+#req_unluck 2
+#req_monster $46 -- Blackbeard Artisan
+#code 0
+#msg "The moot concluded after a major disagreement lead to a duel between clans."
+#killmon $46
+#unrest 25
+#end
+
+-- Fire moot (Bad Outcome)
+#newevent
+#rarity 0
+#req_code $2
+#req_season 3
+#req_owncapital 1
+#req_fornation $1
+#req_minunrest 40
+#req_unluck 2
+#req_monster $55 -- Redbeard Shaman
+#code 0
+#msg "The moot concluded after a major disagreement lead to a duel between clans."
+#killmon $55
+#unrest 25
+#end
+
+-- Fire moot (Good Outcome)
+#newevent
+#rarity 0
+#req_code $2
+#req_season 3
+#req_owncapital 1
+#req_fornation $1
+#req_maxunrest 39
+#req_luck 2
+#code 0
+#msg "The moot concluded with many great reforms being passed."
+#unrest -20
+#landgold 20
+#landprod 50
+#end
+
+-- Fire moot (Good Outcome)
+#newevent
+#rarity 0
+#req_code $2
+#req_season 3
+#req_owncapital 1
+#req_fornation $1
+#req_maxunrest 39
+#req_chaos -1
+#code 0
+#msg "The moot was held in peace."
+#unrest -20
+#decscale3 0
+#end
+
+-- Fire moot (Good Outcome but bad)
+#newevent
+#rarity 0
+#req_code $2
+#req_season 3
+#req_owncapital 1
+#req_fornation $1
+#req_maxunrest 39
+#req_unluck 1
+#code 0
+#msg "The moot was abruptly cancelled shortly after plesantries were exchanged. People are now heading back home."
+#end
+
+-- Moot bad times
+#newevent
+#rarity 1
+#req_code $3
+#req_targmnr $42
+#req_targmnr $46
+#req_targmnr $55
+#req_owncapital 1
+#req_fornation $1
+#msg "Angry, people harrassed one of the representatives."
+#gainaff 67,108,864
+#unrest 17
+#end
+
+-- Moot bad times
+#newevent
+#rarity 1
+#req_code $3
+#req_targmnr $42
+#req_targmnr $46
+#req_targmnr $55
+#req_owncapital 1
+#req_fornation $1
+#msg "Angry, people harrassed one of the representatives."
+#gainaff 2,097,152
+#unrest 17
+#end

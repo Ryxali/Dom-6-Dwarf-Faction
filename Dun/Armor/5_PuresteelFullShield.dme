@@ -1,0 +1,11 @@
+-- Puresteel Full Shield
+#newarmor $5
+#name "Puresteel Full Shield"
+#type 4
+#rcost 15
+#prot 20
+#enc 2
+#def 10
+#ironarmor
+#magicarmor
+#end

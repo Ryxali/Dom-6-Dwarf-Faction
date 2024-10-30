@@ -1,0 +1,29 @@
+-- Dwarf
+#newmonster $4
+#name "Dwarf"
+#nametype 171
+#descr "Scout that can get magic paths. Sometimes organizes a party of seven"
+#spr1 "Art/Redbeard_Chief_0.tga"
+#spr2 "Art/Redbeard_Chief_1.tga"
+#drawsize 10
+#hp 9
+#str 10
+#att 8
+#def 8
+#prec 10
+#prot 5
+#size 2
+#mr 11
+#mor 10
+#enc 4
+#mapmove 10
+#ap 10
+#eyes 2
+#humanoid
+#maxage 250
+
+#rpcost 9995
+#gcost 10000
+#size 2
+#ressize 3
+#end

@@ -1,0 +1,18 @@
+-- Ballista
+#newweapon $3
+#name "Ballista"
+#rcost 50
+#sound 13
+#nratt -3
+#dmg 20
+#aoe 1
+#ammo 12
+#att 2
+#range 50
+#pierce
+#armorpiercing
+#nostr
+#ironweapon
+#flyspr 110 0.8
+#explspr 10002
+#end

@@ -1,0 +1,29 @@
+-- Redbeard Brawler
+#newmonster $41
+#copystats $5
+#name "Redbeard Brawler"
+#descr "The brawlers are honored among the redbeards for ascending through the fighting pits - an ancient tradition amongst the clans. The brawlers are experts at fighting unarmored and unarmed, and make for expert dueling champions. The lust for fighting never leaves a brawler and as such it's impossible to stop them from entering competitions. All redbeards are ferocious in battle and will go berserk at the slightest provocation."
+#spr1 "Art/Redbeard_Brawler_0.tga"
+#spr2 "Art/Redbeard_Brawler_1.tga"
+
+#weapon 92
+#weapon 92
+#weapon 20
+#armor 301
+
+#gcost 9995
+
+#hp 18
+#str 15
+#att 12
+#def 12
+#berserk 5
+#ambidextrous 2
+#poorleader
+#inspirational 2
+#autocompete
+#startaff 5
+#fear 5
+#maxage 250
+
+#end

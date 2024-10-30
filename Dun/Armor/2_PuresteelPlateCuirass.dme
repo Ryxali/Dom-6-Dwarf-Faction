@@ -1,0 +1,11 @@
+-- Puresteel Plate Cuirass
+#newarmor $2
+#name "Puresteel Plate Cuirass"
+#type 5
+#rcost 15
+#prot 18
+#enc 3
+#def -2
+#ironarmor
+#magicarmor
+#end

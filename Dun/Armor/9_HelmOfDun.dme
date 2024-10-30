@@ -1,0 +1,9 @@
+-- Helm of Dûn
+#newarmor $9
+#name "Helm of Dûn"
+#type 6
+#rcost 25
+#prot 27
+#magicarmor
+#enc 1
+#end

@@ -1,0 +1,69 @@
+-- Events
+-- Uses codes $5, $6
+
+
+-- Spawn Redbeard Clan site
+#newevent
+#rarity 1
+#req_nation $1
+#req_unique 1
+#req_capital 0
+#req_minpop 500
+#req_land 1
+#req_farm 0
+#req_cave 0
+#req_freesites 1
+#msg "A group of aggressive dwarves have made home in your province! [Redbeard Clan]"
+#addsite -1
+#com 3505
+#2com 3501
+#4com 3504
+#2d6units 3503
+#3d6units 3502
+#end
+
+-- Redbeards move out
+#newevent
+#rarity 0
+#req_code 0
+#req_land 1
+#req_notanycode $5
+#req_notanycode $6
+#req_foundsite 1
+#req_fort 1
+#removesite -1
+#codedelay $5
+#killpop 60
+#msg "The local Redbeards, unhappy with the sight of the new fort constructed in their homeland, move out [Redbeard Clan]"
+#end
+
+
+-- Redbeards move in
+#newevent
+#rarity 0
+#req_land 1
+#req_code 0
+#req_nearbycode $5
+#req_cave 0
+#req_fort 0
+#addsite -1
+#resetcode $5
+#code 0
+#incpop 60
+#msg "A group of red-bearded dwarves have moved in. They came seeking land free from the confines of earthen forts, and have promised to keep mostly to their own. [Redbeard Clan]"
+#end
+
+-- Redbeards migrate
+#newevent
+#rarity 0
+#req_code 0
+#req_land 1
+#req_cave 0
+#req_nearbycode $5
+#req_fort 1
+#resetcode $5
+#codedelay $5
+#notext
+#msg "A group of migrating dwarves was seen in the area."
+--#nolog
+#end

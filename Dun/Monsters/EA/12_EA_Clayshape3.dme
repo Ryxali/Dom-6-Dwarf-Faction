@@ -1,0 +1,31 @@
+-- Clayshape 3
+#newmonster $12
+#copystats 10
+#copyspr 497
+#clearspec
+#drawsize -20
+#name "Clayshape"
+#nametype 171
+#gcost 0
+
+#hp 34
+#str 16
+#size 4
+#ap 10
+#prot 5
+#att 8
+#def 6
+#mr 12
+
+#inanimate
+#regeneration 10
+#uwdamage 100
+#woundfend 99
+#neednoteat
+#doheal
+#pierceres
+#trample
+#poisonres 5
+#magicbeing
+
+#end

@@ -1,0 +1,27 @@
+-- Blackbeard Artisan
+#newmonster $46
+#copystats $6
+#name "Blackbeard Artisan"
+#descr "To be an artisan of blackforge is one of the greatest honors a dwarf can achieve. These though are considered more apprentices than professionals, where they toil according to the directives of the masters, performing many of the more menial tasks of blackforge. Artisans are adept earth mages, provide additional resources, and are able to forge items more expertly than other mages. They are however unwilling to leave their home and will suffer wounds and ultimately perish should they be away for too long."
+#spr1 "Art/Blackbeard_Artisan_0.tga"
+#spr2 "Art/Blackbeard_Artisan_1.tga"
+
+#gcost 10030
+#att 6
+
+#weapon 115
+#armor 304
+#mor 11
+
+#poorleader
+
+#magicskill 0 1
+--#magicskill 2 1
+#magicskill 3 1
+#custommagic 1920 100
+#custommagic 1536 100
+#mastersmith 1
+#resources 10
+#homesick 10
+#maxage 250
+#end

@@ -1,0 +1,12 @@
+-- Random, Spawned through map
+#newsite
+#name "Redbeard Clan"
+#rarity 5
+#path 7
+#level 0
+#loc 223
+#decunrest -3
+#mon 3502
+#mon 3503
+#com 3501
+#end

@@ -1,0 +1,16 @@
+-- Smith Elder Transformation
+#newspell
+#name "Obair mhòr"
+#descr "When a smith elder has reached the crest of mastery there is but one recourse. The smith must forge their final creation. It will embody every aspect of the creator's character, it will be imbued with every power, and mirror every chink. The resulting construct will bear the name of its' creator, as the smith will now retire to spend the rest of his days in peace."
+#school 3
+#researchlevel 1
+#restricted $1
+#onlymnr $57
+#polygetmagic 0
+#path 0 3
+#pathlevel 0 2
+#fatiguecost 1000
+#spec 545783808
+#effect 10130
+#damage $59
+#end

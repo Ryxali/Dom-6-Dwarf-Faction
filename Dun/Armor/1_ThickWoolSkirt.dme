@@ -1,0 +1,8 @@
+-- Kilt
+#newarmor $1
+#name "Thick Wool Skirt"
+#type = 5
+#prot 4
+#def 1
+#enc 0
+#end

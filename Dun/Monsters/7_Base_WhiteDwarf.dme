@@ -1,0 +1,32 @@
+-- Whitebeard Dwarf
+#newmonster $7
+#copystats 3521
+#clearspec
+#clearmagic
+#name "Whitebeard Dwarf"
+#descr "A light, mobile infantry by dwarf standards. They wield only a hammer, and generally serve as bodyguards for the sages, who need plenty of protection as the truth of the records hold not only moments of wisdom and virtue, but also moments of vice and wrath. Whitebeards only reside in the peaks of highlands and mountains, and can only be recruited from there."
+#spr1 "Art/Whitebeard_Kinsman_0.tga"
+#spr2 "Art/Whitebeard_Kinsman_1.tga"
+
+#mor 12
+#hp 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#prot 3
+#size 2
+#mr 14
+#mor 11
+#enc 4
+#mapmove 8
+#ap 10
+#eyes 2
+#humanoid
+#maxage 250
+#ressize 3
+
+#rcost 1
+#gcost 10008
+#rpcost 15000
+#end

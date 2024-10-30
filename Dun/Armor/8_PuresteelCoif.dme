@@ -1,0 +1,10 @@
+-- Puresteel Coif
+#newarmor $8
+#name "Puresteel Coif"
+#type 6
+#rcost 8
+#prot 12
+#enc 0
+#ironarmor
+#magicarmor
+#end

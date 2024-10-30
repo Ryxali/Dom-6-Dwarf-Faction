@@ -1,0 +1,94 @@
+-- LA Dûn, Federated Clans
+#selectnation $1
+#name "Dûn"
+#epithet "Federated Clans"
+#era 3
+#descr "Ever since the humans of Ulm stole the secret of steel the dwarves have kept to their own. The bickering amongst the clans did not subside - in fact for a time they fractured entirely. The dwarves of Whitebeard resigned to hills and mountains, tending to the vast records of dwarfkind that span for millennia. The Redbeards on the other hand came to shun society, adopting a new nomadic and shamanistic lifestyle based on ancient traditions. Finally the Blackbeards were the ones who kept the forges lit, and have since perfected the arms required to guard its holdings from the threats of the surface world.
+
+As a new era draws to a new beginning, the dwarves are once again emboldened to strike out of their holdings. They have united in a tenuous federation with the Blackbeards as the head. They must keep vigilant lest their union crumble from internal strife."
+#summary "Race: Slow but hardy
+Military: Infantry. powerful crossbows, devastating ballista, heavy armor
+Magic: Earth, air, water, fire. Homesick sacred master smiths
+Priests: Weak, but heavily armored, though only recruitable in the capital"
+#color 0.47 0.36 0.63
+#secondarycolor 0.49 0.26 0.33
+#flag "Art/flag2.tga"
+
+#startsite "Blackforge"
+#startsite "Records of Dwarfkind"
+#startsite "Dûn Moot"
+
+#moreprod 2
+#cavenation 3
+
+#addgod 2502
+#addgod 216
+#addgod 265
+#addgod 606
+#addgod 2802
+#addgod 2206
+#addgod 3346
+#addgod 2449
+#addgod 2234
+#addgod 550
+#addgod 3024
+
+#cheapgod20 2206
+#cheapgod40 2802
+
+--#hero1 3534
+--#hero2 3535
+--#hero3 3536
+
+#startcom $45
+#startunittype1 $49
+#startunitnbrs1 15
+#startunittype2 $50
+#startunitnbrs2 15
+
+-- Redbeards
+#forestrec $43
+#forestrec $44
+#forestcom $40
+#forestcom $41
+#forestcom $42
+#mountainrec $43
+#mountainrec $44
+#mountaincom $40
+#mountaincom $41
+#mountaincom $42
+
+-- Blackbeards
+#addrecunit $49
+#addrecunit $50
+#addrecunit $51
+#addreccom $45
+#addreccom $46
+#addreccom $47
+
+-- Whitebeards
+#mountainfortcom $55
+#mountainfortrec $56
+
+#defcom1 $45
+#defcom2 $47
+#defunit1 $49
+#defunit2 $50
+#defmult1 20
+#defmult2 30
+
+#wallcom $45
+#wallcom $45
+#wallunit $50
+#wallmult 15
+#guardcom $47
+#guardunit $49
+#guardmult 20
+
+#homerealm 2
+#fortera 3
+#templepic 4
+#homefort 19
+
+#aigoodbless 20
+#end

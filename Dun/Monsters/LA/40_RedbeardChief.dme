@@ -1,0 +1,22 @@
+-- UNITS / REDBEARD CLAN
+
+-- Redbeard Chief
+#newmonster $40
+#copystats $5
+#name "Redbeard Chief"
+#descr "The chiefs are the leaders of the various redbeard tribes, and are known to lead its' members in smaller skirmishes. All redbeards are ferocious in battle and will go berserk at the slightest provocation."
+#spr1 "Art/Redbeard_Chief_0.tga"
+#spr2 "Art/Redbeard_Chief_1.tga"
+#drawsize 40
+
+#weapon 14
+#armor 301
+#armor 148
+
+#gcost 10000
+
+#hp 13
+#att 11
+#str 13
+#maxage 250
+#end

@@ -1,0 +1,23 @@
+#newweapon $8
+#name "Bottle of Cleansing Water"
+#dmg 4
+#ammo 1
+#range -1
+#flyspr 111 1
+#rcost 1
+#dt_cap
+#armornegating
+#magic
+#secondaryeffectalways $9
+#skip
+#end
+
+#newweapon $9
+#name "Cleansing Water Splash"
+#dmg 5
+#aoe 1
+#magic
+#explspr 10002
+#undeadonly
+#armornegating
+#end

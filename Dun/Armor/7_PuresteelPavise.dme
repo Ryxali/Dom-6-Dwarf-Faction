@@ -1,0 +1,11 @@
+-- Puresteel Pavise
+#newarmor $7
+#name "Puresteel Pavise"
+#type 4
+#rcost 15
+#prot 18
+#enc 2
+#def 6
+#ironarmor
+#magicarmor
+#end

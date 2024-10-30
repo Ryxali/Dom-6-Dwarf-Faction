@@ -1,0 +1,36 @@
+#newmonster $58
+#name "Amber Paladin"
+#nametype 171
+#descr "Harkoning to ancient times the stone-kin of Dûn have come to serve a sacred role in the federation. It's members are dwarves who have waived all ties to their clan, and through a sacred ritual where they shave all hair they are blessed with skin akin to marble and gemstone eyes. Those with eyes of ruby serve as leaders and are set to learn the incantations, while those with amber execute the order's will.
+In the later age, the stone-kin have dwindled in number due in large to the change in values of the dwarf clans. In order to keep relevant, they don the finest armor produced in Blackforge, serving as the ultimate show of dwarven craftsmanship.
+Stone-kin have strong natural protection and possess magical sight, but they are weak to cold. The paladin wield a mighty hammer capable of turning those it strikes into stone."
+#spr1 "Art/Paladin_0.tga"
+#spr2 "Art/Paladin_1.tga"
+#hp 12
+#str 13
+#att 12
+#def 10
+#prec 10
+#prot 15
+#size 2
+#mr 15
+#mor 14
+#enc 3
+#mapmove 6
+#ap 10
+#eyes 2
+#humanoid
+#nomovepen
+#maxage 250
+#holy
+#coldres -5
+
+#weapon 804
+#armor 309
+#armor 310
+
+#rpcost 10020
+#gcost 10020
+#ressize 3
+#maxage 250
+#end

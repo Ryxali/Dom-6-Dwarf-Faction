@@ -1,0 +1,11 @@
+-- Puresteel Fixtures
+#newarmor $11
+#name "Puresteel Fixtures"
+#type 4
+#rcost 14
+#prot 18
+#def 10
+#enc 0
+#ironarmor
+#magicarmor
+#end

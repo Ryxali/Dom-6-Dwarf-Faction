@@ -1,0 +1,17 @@
+-- Arbalest
+#newweapon $2
+#name "Steel Arbalest"
+#rcost 13
+#sound 13
+#twohanded
+#nratt -3
+#dmg 12
+#range 45
+#ammo 8
+#att 3
+#pierce
+#armorpiercing
+#bowstr
+#ironweapon
+#flyspr 109 0.6
+#end

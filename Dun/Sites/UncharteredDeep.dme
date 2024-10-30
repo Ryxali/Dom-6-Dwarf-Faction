@@ -1,0 +1,10 @@
+-- MA
+#newsite
+#name "Unchartered Deep"
+#rarity 5
+#gems 3 1
+#gems 0 1
+#gems 2 1
+#adventureruin 25
+#path 8
+#end

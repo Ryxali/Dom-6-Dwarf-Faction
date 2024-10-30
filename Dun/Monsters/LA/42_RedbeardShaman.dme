@@ -1,0 +1,22 @@
+-- Redbeard Shaman
+#newmonster $42
+#copystats $5
+#name "Redbeard Shaman"
+#descr "The shaman are the spiritual leaders of the clans. The chiefs consult them regularly as to not anger the spirits and the earth. Shaman are capable earth mages and fierce fighters. All redbeards are ferocious in battle and will go berserk at the slightest provocation."
+#spr1 "Art/Redbeard_Shaman_0.tga"
+#spr2 "Art/Redbeard_Shaman_1.tga"
+
+#weapon 7
+#armor 301
+#armor 148
+
+#gcost 9985
+
+#poorleader
+
+#magicskill 3 1
+#custommagic 17536 100
+#custommagic 17536 10
+#researchbonus -5
+#maxage 250
+#end

@@ -1,0 +1,10 @@
+-- Puresteel Full Helm
+#newarmor $6
+#name "Puresteel Full Helm"
+#type 6
+#rcost 15
+#prot 26
+#enc 0
+#ironarmor
+#magicarmor
+#end

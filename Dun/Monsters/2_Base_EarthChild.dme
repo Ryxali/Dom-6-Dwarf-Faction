@@ -1,0 +1,34 @@
+-- Earth Spawn
+#newmonster $2
+#name "Earth Child"
+#descr "DESC."
+#spr1 "Art/Pebble_Basic_0.tga"
+#spr2 "Art/Pebble_Basic_1.tga"
+#drawsize -10
+
+#gcost 10006
+#rpcost 9992
+
+#hp 8
+#str 9
+#att 7
+#def 7
+#prec 10
+#prot 7
+#size 1
+#mr 10
+#mor 11
+#enc 4
+#mapmove 10
+#ap 10
+#eyes 2
+#rcost 5
+#ressize 1
+#poisonres 7
+#stonebeing
+#coldres -2
+
+#humanoid
+#maxage 250
+
+#end

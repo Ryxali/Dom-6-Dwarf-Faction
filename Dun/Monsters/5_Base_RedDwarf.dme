@@ -1,0 +1,33 @@
+-- Redbeard Dwarf
+#newmonster $5
+#name "Redbeard Dwarf"
+#nametype 171
+#descr "The chiefs are the leaders of the various redbeard tribes, and are known to lead its' members in smaller skirmishes. All redbeards are ferocious in battle and will go berserk at the slightest provocation."
+#spr1 "Art/Redbeard_Chief_0.tga"
+#spr2 "Art/Redbeard_Chief_1.tga"
+#drawsize 15
+
+#hp 12
+#str 12
+#att 10
+#def 10
+#prec 10
+#prot 3
+#size 2
+#mr 13
+#mor 13
+#enc 4
+#mapmove 10
+#ap 10
+#eyes 2
+
+#humanoid
+#maxage 250
+#woundfend 1
+#berserk 3
+#ressize 3
+
+#gcost 10012
+#rpcost 13000
+#rcost 1
+#end

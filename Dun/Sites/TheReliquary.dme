@@ -1,0 +1,13 @@
+-- EA
+#newsite
+#name "The Reliquary"
+#rarity 5
+#homecom 3545
+#homecom 3546
+#homecom 3547
+#homemon 3554
+#gems 1 1
+#gems 4 2
+#gems 5 1
+#path 9
+#end

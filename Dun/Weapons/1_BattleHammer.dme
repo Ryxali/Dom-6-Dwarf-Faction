@@ -1,0 +1,15 @@
+-- WEAPONS / ARMS
+
+-- War Hammer
+#newweapon $1
+#name "Battle Hammer"
+#len 1
+#sound 10
+#dmg 8
+#att -1
+#def 0
+#rcost 3
+#blunt
+#ironweapon
+#norepel
+#end

@@ -1,0 +1,52 @@
+-- Smith Elder Transformation
+#newmonster $59
+#name "Obair mhòr"
+#nametype 171
+#descr "The final work of a smith elder, this ancient craft requires the smith to echew his very essence to achieve this feat of creation. The Obair mhòr is a construct that has inherited and amplified the magical powers of its' creator. They are incredibly tough and make for a versatile combatant."
+#spr1 "Art/Magnum_Opus_0.tga"
+#spr2 "Art/Magnum_Opus_1.tga"
+#hp 34
+#str 18
+#att 10
+#def 9
+#prec 10
+#prot 24
+#size 4
+#mr 18
+#mor 30
+#enc 1
+#mapmove 16
+#ap 20
+#eyes 2
+#humanoid
+#inanimate
+#pooramphibian
+#startage 280
+#maxage 3000
+#noleader
+#holy
+#neednoteat
+
+#slowrec
+#rpcost 4
+#gcost 0
+#poisonres 25
+#fireres 15
+#pierceres
+#slashres
+
+#weapon 92
+#weapon 92
+#magicbeing
+#spiritsight
+
+#magicskill 3 2
+#magicskill 4 1
+#custommagic 1920 100
+#custommagic 1920 100
+#magicboost 0 1
+#magicboost 1 1
+#magicboost 2 1
+#magicboost 3 1
+
+#end

@@ -1,0 +1,23 @@
+-- Hammer of Dûn
+#newweapon $4
+#name "Hammer of Dûn"
+#len 1
+#sound 10
+#dmg 10
+#att -1
+#def 0
+#rcost 10
+#blunt
+#magic
+#twohanded
+#nratt -2
+#secondaryeffectalways $5
+#end
+
+-- Petrification effect
+#newweapon $5
+#copyweapon 104
+#name "Petrification"
+#aoe 0
+--#mrnegateseasily
+#end

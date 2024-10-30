@@ -1,0 +1,11 @@
+-- LA
+#newsite
+#name "Dûn Moot"
+#rarity 5
+#incscale 0
+#homecom $42
+#homecom $60
+#homemon $58
+#path 9
+#look 1
+#end

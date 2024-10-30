@@ -1,0 +1,14 @@
+-- Redbeard Warrior (Maul)
+#newmonster $44
+#copystats $5
+#name "Redbeard Warrior"
+#descr "The warriors of the clans are fierce, but unruly. They wield hammers and light armor and are as such quick by dwarf standards. All redbeards are ferocious in battle and will go berserk at the slightest provocation."
+#spr1 "Art/Redbeard_Mauler_0.tga"
+#spr2 "Art/Redbeard_Mauler_1.tga"
+
+#weapon 14
+#armor $1
+
+#undisciplined
+#maxage 250
+#end

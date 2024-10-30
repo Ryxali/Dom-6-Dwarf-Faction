@@ -1,0 +1,12 @@
+-- LA / MA
+#newsite
+#name "Blackforge"
+#rarity 5
+#gems 3 1
+#gems 0 1
+#res 50
+#homecom $57
+#path 0
+#wallunit $51
+#wallmult 2
+#end

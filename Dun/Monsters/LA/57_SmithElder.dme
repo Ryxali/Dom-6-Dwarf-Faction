@@ -1,0 +1,42 @@
+-- Smith Elder
+#newmonster $57
+#name "Smith Elder"
+#nametype 171
+#descr "Revered since the days of old, the smith elders of dwarfkind still hold an exalted status within the empire. Solitary and devoted to their craft, they are supreme experts in forging items. They are however unwilling to leave their home and will suffer wounds and ultimately perish should they be away for too long."
+#spr1 "Art/Smith_Elder_0.tga"
+#spr2 "Art/Smith_Elder_1.tga"
+#hp 10
+#str 10
+#att 8
+#def 8
+#prec 10
+#prot 3
+#size 2
+#mr 14
+#mor 13
+#enc 4
+#mapmove 8
+#ap 10
+#eyes 2
+#humanoid
+#nomovepen
+#maxage 250
+#noleader
+#holy
+
+#weapon 115
+#armor 304
+
+#slowrec
+#rpcost 4
+#homesick 20
+#gcost 10050
+#mastersmith 2
+#startage 225
+
+#magicskill 3 2
+#custommagic 1920 100
+#custommagic 1920 100
+#ressize 2
+
+#end

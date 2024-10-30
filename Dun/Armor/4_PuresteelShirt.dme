@@ -1,0 +1,11 @@
+-- Puresteel Shirt
+#newarmor $4
+#name "Puresteel Shirt"
+#type 5
+#rcost 10
+#prot 15
+#enc 1
+#def 0
+#ironarmor
+#magicarmor
+#end

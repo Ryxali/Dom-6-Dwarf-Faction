@@ -1,0 +1,15 @@
+-- Special Terracotta (Cheaper)
+#newspell
+#copyspell 1149
+#fatiguecost 700
+#researchlevel 3
+#restricted $1
+--#restricted 122
+--#restricted 120
+#end
+
+#selectspell 1149
+#notfornation $1
+--#notfornation 122
+--#notfornation 123
+#end

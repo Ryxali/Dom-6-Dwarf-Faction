@@ -1,0 +1,20 @@
+#newweapon $6
+#name "Billed Axe"
+#len 1
+#att -1
+#def 0
+#dmg 5
+#rcost 3
+#sound 10
+#slash
+#secondaryeffectalways $7
+#end
+
+#newweapon $7
+#name "Trip"
+#dmg 100
+#sound 38
+#dt_realstun
+#sizeresist
+#flyingimmune
+#end

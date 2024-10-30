@@ -1,0 +1,21 @@
+-- Whitebeard Sage
+#newmonster $55
+#copystats $7
+#name "Whitebeard Sage"
+#nametype 171
+#descr "The sages of the whitebeard clan serve an instrumental role within the empire. They are the recordkeepers of every invention, dispute, altercation, and event and their records span for close to a millennia. The whitebeard sage make for excellent researchers, and are adept earth mages - some also proficient in water and air magic. Whitebeards only reside in the peaks of highlands and mountains, and can only be recruited from there."
+#spr1 "Art/Whitebeard_Sage_0.tga"
+#spr2 "Art/Whitebeard_Sage_1.tga"
+
+#weapon 92
+
+#gcost 9990
+#poorleader
+
+#magicskill 3 1
+#custommagic 2816 100
+#custommagic 2816 10
+#researchbonus 4
+-- #startage 195
+#maxage 250
+#end

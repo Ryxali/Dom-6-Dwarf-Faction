@@ -1,0 +1,11 @@
+-- Puresteel Full Plate
+#newarmor $3
+#name "Puresteel Full Plate"
+#type 5
+#rcost 20
+#prot 24
+#enc 4
+#def -4
+#ironarmor
+#magicarmor
+#end

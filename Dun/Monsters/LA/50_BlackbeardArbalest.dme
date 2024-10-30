@@ -1,0 +1,20 @@
+-- Blackbeard Arbalest
+#newmonster $50
+#copystats $6
+#name "Blackbeard Arbalest"
+#descr "The arbalests of the Blackbeards are able to launch dense volleys upon the enemy. They wield a large shield and a weighty hammer. All members of the Blackbeard army are clad in dense Puresteel by the specifications of the artisans of Blackforge. There is no compromise in defense and so the dwarves must train to endure the weight. Even so they will find it difficult to fight for extended battles."
+#spr1 "Art/Blackbeard_Arbalest_0.tga"
+#spr2 "Art/Blackbeard_Arbalest_1.tga"
+
+#gcost 10010
+#rpcost 10010
+
+#att 8
+
+#weapon 802
+#weapon 12
+#armor 306
+#armor 303
+#armor 307
+#maxage 250
+#end

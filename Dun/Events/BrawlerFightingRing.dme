@@ -1,0 +1,7 @@
+#newevent
+#rarity -1
+#req_targmnr $41
+#msg "Itching for a fight, one of your brawlers started a fighting ring, of which he was the sole survivor."
+#xp 100
+#killpop 1
+#end

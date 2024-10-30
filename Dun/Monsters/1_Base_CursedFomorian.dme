@@ -1,0 +1,21 @@
+-- Cursed Fomorian
+#newmonster $1
+#copystats 1817
+#copyspr 1816
+#name "Cursed Fomorian"
+#spr1 "Art/RelicGuard_0.tga"
+#spr2 "Art/RelicGuard_1.tga"
+
+#clearmagic
+#clearspec
+#clearweapons
+#cleararmor
+
+#gcost 10035
+#maxage 200
+#holy
+#startaff 100
+#startmajoraff 5
+#fear 5
+
+#end

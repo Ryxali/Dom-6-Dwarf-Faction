@@ -1,0 +1,79 @@
+-- Blackbeard Ballista
+#newmonster $51
+#copystats $6
+#name "Blackbeard Ballista"
+#descr "This instrument of destruction have since long guarded the gates of Blackforge. Its mechanism launches tremendously large and powerful bolts that is capable of injuring if not outright killing small groups of enemies, or make serious harm to enemy fortifications. Its weight though leaves it immobile on the battlefield and has previously made it impossible to move. Recent advancements by the artisans have made it possible to at least travel with it for lengthy campaigns."
+#spr1 "Art/Ballista_0.tga"
+#spr2 "Art/Ballista_1.tga"
+#drawsize 10
+
+#weapon $3
+#weapon 13
+#armor $3
+#armor $11
+
+#prec 12
+
+--#rpcost 10022
+#gcost 10042
+
+#siegebonus 25
+#aisinglerec
+
+#mountmnr $52
+#unmountedspr1 "Art/Blackbeard_Infantry_0.tga"
+#unmountedspr2 "Art/Blackbeard_Infantry_1.tga"
+#xspr1 "Art/Ballista_1.tga"
+#nofriders 2
+#coridermnr $53
+#regainmount 0
+#nobarding
+#nothrowoff
+#nofalldamage
+#immobile
+
+#end
+
+-- Blackbeard Ballista
+#newmonster $52
+#name "Blackbeard Ballista"
+#descr "This instrument of destruction have since long guarded the gates of Blackforge. Its mechanism launches tremendously large and powerful bolts that is capable of injuring if not outright killing small groups of enemies, or make serious harm to enemy fortifications. Its weight though leaves it immobile on the battlefield and has previously made it impossible to move. Recent advancements by the artisans have made it possible to at least travel with it for lengthy campaigns."
+#spr1 "Art/Ballista_empty_0.tga"
+#spr2 "Art/Ballista_empty_1.tga"
+#drawsize 10
+#hp 52
+#str 12
+#att 8
+#def 0
+#prec 10
+#prot 16
+#size 6
+#mr 14
+#mor 50
+#enc 4
+#mapmove 6
+#ap 2
+#inanimate
+#blind
+#poisonres 25
+#pierceres
+#maxage 250
+#neednoteat
+#immobile
+#miscshape
+
+#rpcost 1
+#rcost 40
+#gcost 10000
+
+#end
+
+#newmonster $53
+#copystats $6
+#name "Blackbeard Ballistaman"
+#copyspr $6
+#weapon 13
+#armor $3
+#armor $11
+#gcost 10000
+#end

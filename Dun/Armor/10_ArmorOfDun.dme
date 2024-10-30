@@ -1,0 +1,10 @@
+-- Armor of Dûn
+#newarmor $10
+#name "Armor of Dûn"
+#type 5
+#rcost 30
+#prot 25
+#enc 5
+#def -4
+#magicarmor
+#end

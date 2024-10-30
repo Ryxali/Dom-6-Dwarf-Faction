@@ -1,0 +1,10 @@
+-- LA
+#newsite
+#name "Records of Dwarfkind"
+#rarity 5
+#gems 1 1
+#gems 2 1
+#homecom $55
+#path 9
+#look 2
+#end

@@ -1,0 +1,41 @@
+#newevent
+#rarity -1
+#req_targmnr $57
+#msg "A smith elder has forged a wondrous item! [Girdle of Might]"
+#magicitem 9
+#end
+
+#newevent
+#rarity -1
+#req_targmnr $57
+#msg "A smith elder has forged a wondrous item! [Wall Shaker]"
+#magicitem 9
+#end
+
+#newevent
+#rarity -2
+#req_targmnr $57
+#msg "A smith elder has forged a wondrous item! [Scutata Volturnus]"
+#magicitem 9
+#end
+
+#newevent
+#rarity -2
+#req_targmnr $57
+#msg "A smith elder has forged a wondrous item! [Spirit Helmet]"
+#magicitem 9
+#end
+
+#newevent
+#rarity -2
+#req_targmnr $57
+#msg "A smith elder has forged a wondrous item! [Rod of the Phoenix]"
+#magicitem 9
+#end
+
+#newevent
+#rarity -2
+#req_targmnr $57
+#msg "A smith elder has forged a wondrous item! [Carmine Cleaver]"
+#magicitem 9
+#end

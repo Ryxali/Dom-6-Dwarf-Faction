@@ -1,0 +1,12 @@
+#newmonster 13
+#copystats 1
+#copyspr 1816
+#name "Relic Guard"
+#spr1 "Dun/RelicGuard_0.tga"
+#spr2 "Dun/RelicGuard_1.tga"
+
+#weapon 673
+#armor 136
+#armor 135
+
+#end

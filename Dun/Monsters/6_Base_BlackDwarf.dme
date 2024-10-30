@@ -1,0 +1,34 @@
+-- Blackbeard Dwarf
+#newmonster $6
+#name "Blackbeard Dwarf"
+#nametype 171
+#descr "The Blackbeard captains serve in menial tasks, such as organizing the guard and leading the rare expedition. All members of the Blackbeard army are clad in dense Puresteel by the specifications of the artisans of Blackforge. There is no compromise in defense and so the dwarves must train to endure the weight. Even so they will find it difficult to fight for extended battles."
+#spr1 "Art/Blackbeard_Captain_0.tga"
+#spr2 "Art/Blackbeard_Captain_0.tga"
+#drawsize 10
+
+#hp 11
+#str 12
+#att 10
+#def 10
+#prec 10
+#prot 3
+#size 2
+#mr 14
+#mor 13
+#enc 4
+#mapmove 8
+#ap 10
+#eyes 2
+#humanoid
+
+#nomovepen
+#darkvision 50
+#supplybonus -1
+#maxage 250
+#ressize 3
+
+#rcost 1
+#gcost 20000
+#rpcost 13000
+#end
