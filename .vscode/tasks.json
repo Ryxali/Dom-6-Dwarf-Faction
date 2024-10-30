@@ -16,7 +16,7 @@
         {
             "label": "Build SteamOS",
             "type": "shell",
-            "command": "echo Hello",
+            "command": "export PATH=$PATH:$PWD/compiler/steamOS/dotnet2 && export DOTNET_ROOT=$PWD/compiler/steamOS/dotnet2 && export DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1 && echo $PATH && dotnet --list-sdks && compiler/steamOS/DomCompiler $PWD/compiler/Dun/Dun.dm Dun && rm -r -f /home/deck/.local/share/Steam/steamapps/compatdata/2511500/pfx/drive_c/users/steamuser/AppData/Roaming/Dominions6/mods/Dun && mv $PWD/compiler/Dun /home/deck/.local/share/Steam/steamapps/compatdata/2511500/pfx/drive_c/users/steamuser/AppData/Roaming/Dominions6/mods --verbose",
             "problemMatcher": [],
             "group": {
                 "kind": "build",
