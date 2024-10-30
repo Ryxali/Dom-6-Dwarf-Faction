@@ -15,7 +15,7 @@
 #prec 12
 
 --#rpcost 10022
-#gcost 10042
+#gcost 65
 
 #siegebonus 25
 #aisinglerec
