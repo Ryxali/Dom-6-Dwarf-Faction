@@ -10,7 +10,7 @@
 #drawsize 40
 
 #weapon 14
-#armor 301
+#armor $1
 #armor 148
 
 #gcost 10000

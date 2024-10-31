@@ -6,20 +6,21 @@
 #spr1 "Art/Blackbeard_Artisan_0.tga"
 #spr2 "Art/Blackbeard_Artisan_1.tga"
 
-#gcost 10030
-#att 6
+#gcost 10000
+#att 8
 
 #weapon 115
-#armor 304
+#armor $4
 #mor 11
 
 #poorleader
 
-#magicskill 0 1
+--#magicskill 0 1
 --#magicskill 2 1
 #magicskill 3 1
-#custommagic 1920 100
-#custommagic 1536 100
+#custommagic 1152 50 -- earth or fire
+#custommagic 1280 50 -- earth or air
+#custommagic 1536 50 -- earth or water
 #mastersmith 1
 #resources 10
 #homesick 10

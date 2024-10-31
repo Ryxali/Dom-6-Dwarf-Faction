@@ -9,7 +9,7 @@
 #gcost 10008
 
 #weapon 12
-#armor 304
+#armor $4
 
 #bodyguard 2
 #maxage 250

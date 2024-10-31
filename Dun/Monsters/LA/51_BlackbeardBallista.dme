@@ -34,9 +34,9 @@
 
 #end
 
--- Blackbeard Ballista
+-- Ballista
 #newmonster $52
-#name "Blackbeard Ballista"
+#name "Ballista"
 #descr "This instrument of destruction have since long guarded the gates of Blackforge. Its mechanism launches tremendously large and powerful bolts that is capable of injuring if not outright killing small groups of enemies, or make serious harm to enemy fortifications. Its weight though leaves it immobile on the battlefield and has previously made it impossible to move. Recent advancements by the artisans have made it possible to at least travel with it for lengthy campaigns."
 #spr1 "Art/Ballista_empty_0.tga"
 #spr2 "Art/Ballista_empty_1.tga"
@@ -48,7 +48,7 @@
 #prec 10
 #prot 16
 #size 6
-#mr 14
+#mr 12
 #mor 50
 #enc 4
 #mapmove 6
@@ -68,6 +68,7 @@
 
 #end
 
+-- Ballistaman
 #newmonster $53
 #copystats $6
 #name "Blackbeard Ballistaman"

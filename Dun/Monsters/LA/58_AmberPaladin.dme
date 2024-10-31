@@ -6,7 +6,7 @@ In the later age, the stone-kin have dwindled in number due in large to the chan
 Stone-kin have strong natural protection and possess magical sight, but they are weak to cold. The paladin wield a mighty hammer capable of turning those it strikes into stone."
 #spr1 "Art/Paladin_0.tga"
 #spr2 "Art/Paladin_1.tga"
-#hp 12
+#hp 15
 #str 13
 #att 12
 #def 10
@@ -24,10 +24,12 @@ Stone-kin have strong natural protection and possess magical sight, but they are
 #maxage 250
 #holy
 #coldres -5
+#stonebeing
+#spiritsight
 
-#weapon 804
-#armor 309
-#armor 310
+#weapon $4
+#armor $9
+#armor $10
 
 #rpcost 10020
 #gcost 10020

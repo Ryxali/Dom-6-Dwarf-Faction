@@ -9,9 +9,9 @@
 #gcost 10010
 #rpcost 10010
 
-#weapon 801
-#armor 306
-#armor 303
-#armor 305
+#weapon $1
+#armor $6
+#armor $3
+#armor $5
 #maxage 250
 #end

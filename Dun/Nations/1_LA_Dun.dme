@@ -61,7 +61,7 @@ Priests: Weak, but heavily armored, though only recruitable in the capital"
 -- Blackbeards
 #addrecunit $49
 #addrecunit $50
-#addrecunit $51
+--#addrecunit $51
 #addreccom $45
 #addreccom $46
 #addreccom $47

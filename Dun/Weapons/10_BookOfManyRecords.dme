@@ -1,0 +1,10 @@
+#newweapon $10
+#name "Book of Many Records"
+#len 0
+#sound 10
+#dmg 5
+#att -1
+#def -1
+#rcost 1
+#blunt
+#end

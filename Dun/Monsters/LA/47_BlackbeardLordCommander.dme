@@ -14,9 +14,9 @@
 #skilledrider 3
 #nofalldmg
 
-#weapon 801
-#armor 306
-#armor 303
+#weapon $1
+#armor $6
+#armor $3
 
 #mor 15
 #expertleader

@@ -7,14 +7,15 @@
 #spr1 "Art/Whitebeard_Sage_0.tga"
 #spr2 "Art/Whitebeard_Sage_1.tga"
 
-#weapon 92
+#att 8
+#weapon $10
 
-#gcost 9990
+#gcost 10010
 #poorleader
 
-#magicskill 3 1
-#custommagic 2816 100
-#custommagic 2816 10
+#magicskill 4 1
+#custommagic 1792 100
+#custommagic 1792 10
 #researchbonus 4
 -- #startage 195
 #maxage 250
