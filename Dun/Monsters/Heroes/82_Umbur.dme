@@ -1,0 +1,21 @@
+-- MA/LA
+#newmonster $82
+#copystats $60
+#spr1 "Art/OnyxPaladin_0.tga"
+#spr2 "Art/OnyxPaladin_1.tga"
+#name "Onyx Paladin"
+#fixedname "Umbur"
+#descr "Endowed with eyes of Onyx, Umbur was gifted power over the spectral realm. While his left eye remains to allow him to see the mortal plane; his right eye is ever peering into Tartarus, a most maddening fate to endure. Even so, he can evoke its power, and he may assume command of the husks that remain after his mighty blows."
+#clearmagic
+#raiseonkill 50
+#insane 5
+#mor 17
+#mr 16
+#age 330
+#maxage 250
+#att 11
+#gcost 10020
+#rpcost 2
+#magicskill 8 2
+#magicskill 5 2
+#end

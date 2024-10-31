@@ -24,11 +24,11 @@
 
 #nomovepen
 #darkvision 50
-#supplybonus -1
+#appetite 1
 #maxage 250
 #ressize 3
 
 #rcost 1
-#gcost 20000
+#gcost 10000
 #rpcost 13000
 #end

@@ -7,7 +7,7 @@
 #spr2 "Art/Blackbeard_Infantry_1.tga"
 
 #gcost 10010
-#rpcost 10010
+--#rpcost 10010
 
 #weapon $1
 #armor $6

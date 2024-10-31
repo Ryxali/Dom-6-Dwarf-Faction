@@ -1,0 +1,21 @@
+-- MA/LA
+#newmonster $81
+#copystats $60
+#spr1 "Art/EmeraldPaladin_0.tga"
+#spr2 "Art/EmeraldPaladin_1.tga"
+#name "Emerald Paladin"
+#fixedname "Radathur"
+#descr "Endowed with eyes of Emerald, Radathur was gifted power over the verdant realm. Unique in his visage, he honed his worship first with insects native to the mines, then with fauna and larger creatures native to the sun.
+Radathur is an adept mage and priest who is always guarded by nearby insects."
+#clearmagic
+#mor 17
+#mr 16
+#att 11
+#gcost 10020
+#rpcost 2
+#age 180
+#maxage 250
+#magicskill 8 2
+#magicskill 6 2
+#batstartsum2d6 -9
+#end

@@ -11,10 +11,10 @@
 #armor 148
 
 #gcost 9985
-
+#mr 13
 #poorleader
 
-#magicskill 3 1
+#magicskill 0 1
 #custommagic 17536 100
 #custommagic 17536 10
 #researchbonus -5

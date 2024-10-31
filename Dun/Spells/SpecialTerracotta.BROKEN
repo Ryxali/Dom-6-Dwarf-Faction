@@ -2,8 +2,9 @@
 #newspell
 #copyspell 1149
 #fatiguecost 700
-#researchlevel 3
+#researchlevel 4
 #restricted $1
+#notfornation 0
 --#restricted 122
 --#restricted 120
 #end

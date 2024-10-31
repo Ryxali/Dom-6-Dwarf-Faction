@@ -8,9 +8,10 @@
 #spr2 "Art/Whitebeard_Sage_1.tga"
 
 #att 8
+#def 8
 #weapon $10
 
-#gcost 10010
+#gcost 10035
 #poorleader
 
 #magicskill 4 1

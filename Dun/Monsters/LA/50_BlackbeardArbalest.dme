@@ -7,7 +7,7 @@
 #spr2 "Art/Blackbeard_Arbalest_1.tga"
 
 #gcost 10010
-#rpcost 10010
+--#rpcost 10010
 
 #att 8
 

@@ -21,6 +21,15 @@ Priests: Weak, but heavily armored, though only recruitable in the capital"
 #moreprod 2
 #cavenation 3
 
+#delgod 2234
+#delgod 2784
+#delgod 3692
+#delgod 3693
+#delgod 1378
+#delgod 2450
+#delgod 3080
+#delgod 270
+#delgod 779
 #addgod 2502
 #addgod 216
 #addgod 265
@@ -32,13 +41,29 @@ Priests: Weak, but heavily armored, though only recruitable in the capital"
 #addgod 2234
 #addgod 550
 #addgod 3024
+#addgod 216
+#addgod 265
+#addgod 3641
+#addgod 3710
+#addgod 3895
+#addgod 3888
+#addgod 3121
+#addgod 2783
+#addgod 269
+#addgod 3693
+#addgod 607
+#addgod 180
+#addgod 2431
+#addgod 249
+#addgod 246
+#addgod 245
 
 #cheapgod20 2206
 #cheapgod40 2802
 
---#hero1 3534
---#hero2 3535
---#hero3 3536
+#hero1 $80
+#hero2 $81
+#hero3 $82
 
 #startcom $45
 #startunittype1 $49

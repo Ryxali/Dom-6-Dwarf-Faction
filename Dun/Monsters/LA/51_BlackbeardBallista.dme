@@ -2,7 +2,7 @@
 #newmonster $51
 #copystats $6
 #name "Blackbeard Ballista"
-#descr "This instrument of destruction have since long guarded the gates of Blackforge. Its mechanism launches tremendously large and powerful bolts that is capable of injuring if not outright killing small groups of enemies, or make serious harm to enemy fortifications. Its weight though leaves it immobile on the battlefield and has previously made it impossible to move. Recent advancements by the artisans have made it possible to at least travel with it for lengthy campaigns."
+#descr "This instrument of destruction has long guarded the gates of Blackforge. Its mechanism launches tremendously large and powerful bolts that is capable of injuring if not outright killing small groups of enemies, or make serious harm to enemy fortifications. Its weight though leaves it immobile on the battlefield and has previously made it impossible to move. Recent advancements by the artisans have made it possible to at least travel with it for lengthy campaigns."
 #spr1 "Art/Ballista_0.tga"
 #spr2 "Art/Ballista_1.tga"
 #drawsize 10
@@ -14,8 +14,9 @@
 
 #prec 12
 
---#rpcost 10022
-#gcost 65
+#rpcost 10022
+#gcost 10012
+--#reclimit 5
 
 #siegebonus 25
 #aisinglerec
@@ -37,15 +38,15 @@
 -- Ballista
 #newmonster $52
 #name "Ballista"
-#descr "This instrument of destruction have since long guarded the gates of Blackforge. Its mechanism launches tremendously large and powerful bolts that is capable of injuring if not outright killing small groups of enemies, or make serious harm to enemy fortifications. Its weight though leaves it immobile on the battlefield and has previously made it impossible to move. Recent advancements by the artisans have made it possible to at least travel with it for lengthy campaigns."
+#descr "This instrument of destruction has long guarded the gates of Blackforge. Its mechanism launches tremendously large and powerful bolts that is capable of injuring if not outright killing small groups of enemies, or make serious harm to enemy fortifications. Its weight though leaves it immobile on the battlefield and has previously made it impossible to move. Recent advancements by the artisans have made it possible to at least travel with it for lengthy campaigns."
 #spr1 "Art/Ballista_empty_0.tga"
 #spr2 "Art/Ballista_empty_1.tga"
 #drawsize 10
-#hp 52
+#hp 28
 #str 12
-#att 8
+#att 5
 #def 0
-#prec 10
+#prec 5
 #prot 16
 #size 6
 #mr 12
@@ -63,8 +64,8 @@
 #miscshape
 
 #rpcost 1
-#rcost 40
-#gcost 10000
+#rcost 55
+#gcost 44
 
 #end
 
@@ -76,5 +77,5 @@
 #weapon 12
 #armor $3
 #armor $11
-#gcost 10000
+#gcost 10012
 #end

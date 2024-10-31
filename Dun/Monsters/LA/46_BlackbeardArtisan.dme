@@ -6,8 +6,9 @@
 #spr1 "Art/Blackbeard_Artisan_0.tga"
 #spr2 "Art/Blackbeard_Artisan_1.tga"
 
-#gcost 10000
+#gcost 10010
 #att 8
+#def 8
 
 #weapon 115
 #armor $4
