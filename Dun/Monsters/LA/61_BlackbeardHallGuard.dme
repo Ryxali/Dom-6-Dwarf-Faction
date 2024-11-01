@@ -2,7 +2,7 @@
 #newmonster $61
 #copystats $49
 #name "Blackbeard Hall Guard"
-#descr "The infantry of the Blackbeards are staunch protectors of the front line. They wield a large shield and a weighty hammer. All members of the Blackbeard army are clad in dense Puresteel by the specifications of the artisans of Blackforge. There is no compromise in defense and so the dwarves must train to endure the weight. Even so they will find it difficult to fight for extended battles."
+#descr "Loyal to their liege lord, these elite troops guard his hall from any intruder. Hall guards stem from long lineages, with oaths of fealty taken centuries ago. All members of the Blackbeard army are clad in dense Puresteel by the specifications of the artisans of Blackforge. There is no compromise in defense and so the dwarves must train to endure the weight. Even so they will find it difficult to fight for extended battles."
 #spr1 "Art/Blackbeard_HallGuard_0.tga"
 #spr2 "Art/Blackbeard_HallGuard_1.tga"
 
