@@ -1,0 +1,13 @@
+#newmerc
+#name "The Red Ravagers"
+#bossname "Rotgar"
+#level 0
+#com "Redbeard Chief"
+#unit "Redbeard Warrior"
+#nrunits 55
+#minmen 20
+#minpay 160
+#xp 5
+#recrate 50
+#eramask 4
+#end
