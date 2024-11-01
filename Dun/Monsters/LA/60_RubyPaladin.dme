@@ -12,6 +12,6 @@ Stone-kin have strong natural protection and possess magical sight, but they are
 #att 11
 #gcost 10010
 #rpcost 1
-#magicskill 9 1
+#magicskill 9 2
 #maxage 250
 #end
