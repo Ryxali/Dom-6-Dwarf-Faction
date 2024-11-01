@@ -15,7 +15,7 @@ Radathur is an adept mage and priest who is always guarded by nearby insects."
 #rpcost 2
 #age 180
 #maxage 250
-#magicskill 8 2
+#magicskill 9 2
 #magicskill 6 2
 #batstartsum2d6 -9
 #end
