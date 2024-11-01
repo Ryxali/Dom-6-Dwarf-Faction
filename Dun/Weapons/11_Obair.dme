@@ -1,0 +1,12 @@
+#newweapon $11
+#name "Obair"
+#len 1
+#sound 10
+#dmg 9
+#att 0
+#def -1
+#rcost 10
+#blunt
+#magic
+#twohanded
+#end

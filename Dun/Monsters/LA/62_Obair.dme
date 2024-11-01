@@ -1,0 +1,25 @@
+-- Blackbeard Infantry
+#newmonster $62
+#copystats $49
+#name "Obair"
+#descr "The infantry of the Blackbeards are staunch protectors of the front line. They wield a large shield and a weighty hammer. All members of the Blackbeard army are clad in dense Puresteel by the specifications of the artisans of Blackforge. There is no compromise in defense and so the dwarves must train to endure the weight. Even so they will find it difficult to fight for extended battles."
+#spr1 "Art/Blackbeard_Obair_0.tga"
+#spr2 "Art/Blackbeard_Obair_1.tga"
+
+#clearweapons
+#cleararmor
+
+#hp 13
+#str 12
+#att 11
+#def 10
+#mor 14
+
+#weapon $11
+#armor $6 
+#armor $3
+
+#gcost 10022
+#monpresentrec $46
+--#rpcost 10010
+#end

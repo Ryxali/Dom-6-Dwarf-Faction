@@ -3,19 +3,19 @@
 #name "Blackbeard Dwarf"
 #nametype 171
 #descr "The Blackbeard captains serve in menial tasks, such as organizing the guard and leading the rare expedition. All members of the Blackbeard army are clad in dense Puresteel by the specifications of the artisans of Blackforge. There is no compromise in defense and so the dwarves must train to endure the weight. Even so they will find it difficult to fight for extended battles."
-#spr1 "Art/Blackbeard_Captain_0.tga"
-#spr2 "Art/Blackbeard_Captain_0.tga"
+#spr1 "Art/Ballista_Hurt_0.tga"
+#spr2 "Art/Ballista_Hurt_1.tga"
 #drawsize 10
 
-#hp 11
+#hp 10
 #str 11
 #att 10
 #def 9
 #prec 10
 #prot 3
 #size 2
-#mr 14
-#mor 13
+#mr 13
+#mor 12
 #enc 4
 #mapmove 8
 #ap 10

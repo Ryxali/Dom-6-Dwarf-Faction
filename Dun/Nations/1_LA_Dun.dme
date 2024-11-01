@@ -7,6 +7,7 @@
 
 As a new era draws to a new beginning, the dwarves are once again emboldened to strike out of their holdings. They have united in a tenuous federation with the Blackbeards as the head. They must keep vigilant lest their union crumble from internal strife."
 #summary "Race: Slow but hardy
+
 Military: Infantry. powerful crossbows, devastating ballista, heavy armor
 Magic: Earth, air, water, fire. Homesick sacred master smiths
 Priests: Weak, but heavily armored, though only recruitable in the capital"
@@ -86,7 +87,8 @@ Priests: Weak, but heavily armored, though only recruitable in the capital"
 -- Blackbeards
 #addrecunit $49
 #addrecunit $50
---#addrecunit $51
+#addrecunit $61
+#addrecunit $62
 #addreccom $45
 #addreccom $46
 #addreccom $47

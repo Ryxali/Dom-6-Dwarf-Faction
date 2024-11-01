@@ -5,6 +5,10 @@
 #descr "This instrument of destruction has long guarded the gates of Blackforge. Its mechanism launches tremendously large and powerful bolts that is capable of injuring if not outright killing small groups of enemies, or make serious harm to enemy fortifications. Its weight though leaves it immobile on the battlefield and has previously made it impossible to move. Recent advancements by the artisans have made it possible to at least travel with it for lengthy campaigns."
 #spr1 "Art/Ballista_0.tga"
 #spr2 "Art/Ballista_1.tga"
+#xspr1 "Art/Ballista_Hurt_0.tga"
+#xspr2 "Art/Ballista_Hurt_1.tga"
+#unmountedspr1 "Art/Blackbeard_Ballistaman_0.tga"
+#unmountedspr2 "Art/Blackbeard_Ballistaman_1.tga"
 #drawsize 10
 
 #weapon $3
@@ -12,7 +16,7 @@
 #armor $3
 #armor $11
 
-#prec 12
+#prec 10
 
 #rpcost 10022
 #gcost 10012
@@ -22,9 +26,6 @@
 #aisinglerec
 
 #mountmnr $52
-#unmountedspr1 "Art/Blackbeard_Infantry_0.tga"
-#unmountedspr2 "Art/Blackbeard_Infantry_1.tga"
-#xspr1 "Art/Ballista_1.tga"
 #nofriders 2
 #coridermnr $53
 #regainmount 0
@@ -73,7 +74,8 @@
 #newmonster $53
 #copystats $6
 #name "Blackbeard Ballistaman"
-#copyspr $6
+#spr1 "Art/Blackbeard_Ballistaman_0.tga"
+#spr2 "Art/Blackbeard_Ballistaman_1.tga"
 #weapon 12
 #armor $3
 #armor $11
