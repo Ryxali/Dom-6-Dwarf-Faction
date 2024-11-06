@@ -4,19 +4,17 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Build Win64",
+            "label": "Build & Deploy",
             "type": "shell",
-            "command": "./compiler/win64/DomCompiler.exe %appdata%/Dominions6/mods/Dun.dm Dun",
-            "problemMatcher": [],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
-        },
-        {
-            "label": "Build SteamOS",
-            "type": "shell",
-            "command": "export PATH=$PATH:$PWD/compiler/steamOS/dotnet2 && export DOTNET_ROOT=$PWD/compiler/steamOS/dotnet2 && export DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1 && echo $PATH && dotnet --list-sdks && compiler/steamOS/DomCompiler $PWD/compiler/Dun/Dun.dm Dun && rm -r -f /home/deck/.local/share/Steam/steamapps/compatdata/2511500/pfx/drive_c/users/steamuser/AppData/Roaming/Dominions6/mods/Dun && mv $PWD/compiler/Dun /home/deck/.local/share/Steam/steamapps/compatdata/2511500/pfx/drive_c/users/steamuser/AppData/Roaming/Dominions6/mods --verbose",
+            "windows":
+            {
+                // Need to double escape the " around paths for it to pass as an argument correctly for some reason.
+                "command": "./compiler\\win64\\DomCompiler.exe \\\"${env:appdata}\\Dominions6\\mods\\Dun.dm\\\" \\\"Dun\\\""
+            },
+            "linux":
+            {
+                "command": "export PATH=$PATH:$PWD/compiler/steamOS/dotnet2 && export DOTNET_ROOT=$PWD/compiler/steamOS/dotnet2 && export DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1 && echo $PATH && dotnet --list-sdks && compiler/steamOS/DomCompiler $PWD/compiler/Dun/Dun.dm Dun && rm -r -f /home/deck/.local/share/Steam/steamapps/compatdata/2511500/pfx/drive_c/users/steamuser/AppData/Roaming/Dominions6/mods/Dun && mv $PWD/compiler/Dun /home/deck/.local/share/Steam/steamapps/compatdata/2511500/pfx/drive_c/users/steamuser/AppData/Roaming/Dominions6/mods --verbose",
+            },
             "problemMatcher": [],
             "group": {
                 "kind": "build",
