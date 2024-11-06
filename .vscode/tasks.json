@@ -9,7 +9,7 @@
             "windows":
             {
                 // Need to double escape the " around paths for it to pass as an argument correctly for some reason.
-                "command": "./compiler\\win64\\DomCompiler.exe \\\"${env:appdata}\\Dominions6\\mods\\Dun.dm\\\" \\\"Dun\\\""
+                "command": "./compiler\\win64\\DomCompiler.exe \\\"${env:appdata}\\Dominions6\\mods\\Dun\\Dun.dm\\\" \\\"Dun\\\""
             },
             "linux":
             {
