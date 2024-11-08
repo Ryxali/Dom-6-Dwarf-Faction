@@ -1,0 +1,12 @@
+#newmonster $26
+#copystats 1215
+#copyspr 1215
+#cleararmor
+#clearweapons
+#name "Normati Chieftain"
+#descr "The Normati are a splitaway tribe of the Marverni who rejects the dominance of the Gutuaters in loyalty to their Woad Witches. They protect these secluded groves and rarely use expensive armor. They fight bare-chested armed with javelins, swords and shields. Normati warriors decorate themselves in tattoos. The Woad Witches instill the tattoos with wild magic and can awaken the powers of the enchanted tattoos in battle. The Normati tribesmen are known for their bear tattoos."
+#weapon 645
+#armor 135
+#armor 142
+#forestsurvival
+#end

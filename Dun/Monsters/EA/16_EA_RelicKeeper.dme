@@ -1,0 +1,16 @@
+#newmonster $16
+#copystats $1
+#name "Relic Keeper"
+#spr1 "Art/RelicKeeper_0.tga"
+#spr2 "Art/RelicKeeper_1.tga"
+
+#expertleader
+#weapon 673
+#armor 136
+#armor 135
+#magicskill 9 2
+
+#rpcost 1
+#gcost 10020
+
+#end

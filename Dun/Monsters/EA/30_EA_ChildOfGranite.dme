@@ -1,0 +1,16 @@
+#newmonster $30
+#copystats $8
+#name "Child of Granite"
+#descr "Mage & SC"
+#spr1 "Art/Child_Granite_0.tga"
+#spr2 "Art/Child_Granite_1.tga"
+#drawsize 10
+
+#okleader
+#magicskill 3 2
+#custommagic 1152 50
+
+#gcost 10007
+
+#weapon 553
+#end

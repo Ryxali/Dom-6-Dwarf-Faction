@@ -1,0 +1,20 @@
+-- Earth Spawn
+#newmonster $9
+#name "LimeChild"
+#copystats $2
+#descr "DESC."
+#spr1 "Art/Pebble_Basic_0.tga"
+#spr2 "Art/Pebble_Basic_1.tga"
+#drawsize 0
+
+#gcost 10010
+--#rpcost 12000
+
+#str 10
+#hp 10
+#att 10
+#rcost 5
+#prot 8
+#poisonres 10
+
+#end

@@ -1,0 +1,27 @@
+-- Rock Thrower
+#newmonster $19
+#copystats $8
+#name "Spawn of Basalt"
+#descr "The brawlers are honored among the redbeards for ascending through the fighting pits - an ancient tradition amongst the clans. The brawlers are experts at fighting unarmored and unarmed, and make for expert dueling champions. The lust for fighting never leaves a brawler and as such it's impossible to stop them from entering competitions. All redbeards are ferocious in battle and will go berserk at the slightest provocation."
+#spr1 "Art/Basalt_Basic_0.tga"
+#spr2 "Art/Basalt_Basic_1.tga"
+
+#weapon 12
+#weapon 605
+#armor 100
+
+#end
+
+-- Partially Armored
+#newmonster $20
+#copystats $8
+#name "Spawn of Basalt"
+#descr "The brawlers are honored among the redbeards for ascending through the fighting pits - an ancient tradition amongst the clans. The brawlers are experts at fighting unarmored and unarmed, and make for expert dueling champions. The lust for fighting never leaves a brawler and as such it's impossible to stop them from entering competitions. All redbeards are ferocious in battle and will go berserk at the slightest provocation."
+#spr1 "Art/Basalt_Shield_0.tga"
+#spr2 "Art/Basalt_Shield_1.tga"
+
+#weapon 12
+#armor 100
+#armor 2
+
+#end

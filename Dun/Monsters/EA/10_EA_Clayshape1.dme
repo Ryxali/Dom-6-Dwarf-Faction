@@ -1,6 +1,6 @@
 -- Clayshape 1
 #newmonster $10
-#copyspr 498
+#copyspr 3738
 #drawsize -70
 #name "Clayshape"
 #nametype 171
@@ -9,7 +9,7 @@
 #xpshape 10 $11
 
 #hp 8
-#size 1
+#size 2
 #att 8
 #str 9
 #def 6
@@ -20,7 +20,7 @@
 #enc 0
 #mapmove 14
 #ap 6
-regeneration 10
+#reconst  8
 #startage -1
 #inanimate
 #uwdamage 100

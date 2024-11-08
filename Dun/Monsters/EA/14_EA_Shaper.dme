@@ -1,8 +1,8 @@
-#newmonster 14
-#copystats 1
+#newmonster $14
+#copystats $1
 #name "Shaper"
-#spr1 "Dun/Shaper_0.tga"
-#spr2 "Dun/Shaper_1.tga"
+#spr1 "Art/Shaper_0.tga"
+#spr2 "Art/Shaper_1.tga"
 
 #goodleader
 #goodmagicleader
@@ -13,8 +13,8 @@
 #custommagic 1668 100
 #custommagic 1668 10
 
-#makemonsters1 3552 1
-#batstartsum1d3 3551
+#makemonsters1 $10 1
+#batstartsum1d3 $11
 
 #weapon 13
 #armor 142

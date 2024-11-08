@@ -1,7 +1,7 @@
 -- Clayshape 2
 #newmonster $11
-#copystats 10
-#copyspr 497
+#copystats $10
+#copyspr 3738
 #clearspec
 #drawsize -50
 #name "Clayshape"
@@ -12,7 +12,7 @@
 
 #hp 16
 #str 12
-#size 2
+#size 3
 #ap 8
 #prot 5
 #att 8

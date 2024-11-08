@@ -1,0 +1,29 @@
+-- Enable Fomorian national spells for EA
+#selectspell 438
+#restricted $3
+#end
+
+#selectspell 440
+#restricted $3
+#end
+
+#selectspell 442
+#restricted $3
+#end
+
+#selectspell 443
+#restricted $3
+#end
+
+#selectspell 444
+#restricted $3
+#end
+
+#selectspell 1294
+#restricted $3
+#end
+
+-- Also tattoos
+#selectspell 280
+#restricted $3
+#end

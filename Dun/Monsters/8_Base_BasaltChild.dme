@@ -1,0 +1,19 @@
+-- Earth Spawn
+#newmonster $8
+#name "BasaltChild"
+#copystats $2
+#descr "DESC."
+#spr1 "Art/Pebble_Basic_0.tga"
+#spr2 "Art/Pebble_Basic_1.tga"
+#drawsize 0
+
+#gcost 10008
+--#rpcost 12000
+
+#str 9
+#hp 9
+#rcost 4
+#prot 7
+#poisonres 7
+
+#end

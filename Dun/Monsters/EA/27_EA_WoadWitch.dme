@@ -1,0 +1,16 @@
+#newmonster $27
+#copystats 1205
+#copyspr 154
+#name "Woad Witch"
+#descr "The Woad Witches were originally priestesses of the wild. With the dominance of the Gutuaters the witches were excluded from the druidic circle. In spite the Witches uttered a curse to the sacred forest of Carnutes and tribesmen loyal to their priestesses migrated deep within the forests. A great hunt was called to cull the witches and not many remain. With the arrival of the Blemished they have aligned with them and started to learn their magics. Woad Witches practice the art of etching enchanting young warriors with tattoos and is able to activate its magic in battle."
+#clearspec
+#clearmagic
+#forestsurvival
+#deathcurse
+#autodishealer 1
+#slowrec
+#magicskill 5 1
+#magicskill 6 1
+#magicskill 9 1
+#custommagic 12544 100
+#end

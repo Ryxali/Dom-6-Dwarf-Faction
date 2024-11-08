@@ -1,0 +1,32 @@
+-- Rock Thrower
+#newmonster $17
+#copystats $2
+#name "Spawn of Pebble"
+#descr "The brawlers are honored among the redbeards for ascending through the fighting pits - an ancient tradition amongst the clans. The brawlers are experts at fighting unarmored and unarmed, and make for expert dueling champions. The lust for fighting never leaves a brawler and as such it's impossible to stop them from entering competitions. All redbeards are ferocious in battle and will go berserk at the slightest provocation."
+#spr1 "Art/Pebble_Basic_0.tga"
+#spr2 "Art/Pebble_Basic_1.tga"
+
+#mor 9
+
+#weapon 605
+#weapon 553
+
+#end
+
+-- Sling
+#newmonster $18
+#copystats $2
+#name "Spawn of Pebble"
+#descr "The brawlers are honored among the redbeards for ascending through the fighting pits - an ancient tradition amongst the clans. The brawlers are experts at fighting unarmored and unarmed, and make for expert dueling champions. The lust for fighting never leaves a brawler and as such it's impossible to stop them from entering competitions. All redbeards are ferocious in battle and will go berserk at the slightest provocation."
+#spr1 "Art/Pebble_Sling_0.tga"
+#spr2 "Art/Pebble_Sling_1.tga"
+#drawsize -10
+
+#prec 10
+#mor 9
+
+#weapon 22
+#weapon 553
+#armor 135
+
+#end

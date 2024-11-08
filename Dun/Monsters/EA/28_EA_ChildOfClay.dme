@@ -1,0 +1,21 @@
+#newmonster $28
+#copystats $2
+#name "Child of Clay"
+#descr "Shaper"
+#spr1 "Art/Child_Clay_0.tga"
+#spr2 "Art/Child_Clay_1.tga"
+
+#regeneration 10
+#uwdamage 100
+#woundfend 99
+#poisonres 10
+#poormagicleader
+
+#makemonsters1 $10 1
+#poorleader
+
+#gcost 10017
+#rpcost 1
+
+#weapon 553
+#end

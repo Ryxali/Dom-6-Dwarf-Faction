@@ -1,0 +1,19 @@
+#newmonster $31
+#copystats $8
+#name "Child of Obsidian"
+#nametype 171
+#descr "Mage & SC"
+#spr1 "Art/Child_Obsidian_0.tga"
+#spr2 "Art/Child_Obsidian_1.tga"
+#drawsize 10
+
+#okleader
+#magicskill 5 1
+#magicskill 3 1
+#custommagic 4096 10
+#fireres 5
+
+#gcost 10007
+
+#weapon 625
+#end

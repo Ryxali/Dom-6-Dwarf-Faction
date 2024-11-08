@@ -1,0 +1,32 @@
+-- Maul
+#newmonster $21
+#copystats $9
+#name "Spawn of Limestone"
+#descr "The brawlers are honored among the redbeards for ascending through the fighting pits - an ancient tradition amongst the clans. The brawlers are experts at fighting unarmored and unarmed, and make for expert dueling champions. The lust for fighting never leaves a brawler and as such it's impossible to stop them from entering competitions. All redbeards are ferocious in battle and will go berserk at the slightest provocation."
+#spr1 "Art/Limestone_Maul_0.tga"
+#spr2 "Art/Limestone_Maul_1.tga"
+
+#mor 11
+
+#weapon 14
+#armor 100
+#armor 135
+
+#end
+
+-- Shield
+#newmonster $22
+#copystats $9
+#name "Spawn of Limestone"
+#desc "The brawlers are honored among the redbeards for ascending through the fighting pits - an ancient tradition amongst the clans. The brawlers are experts at fighting unarmored and unarmed, and make for expert dueling champions. The lust for fighting never leaves a brawler and as such it's impossible to stop them from entering competitions. All redbeards are ferocious in battle and will go berserk at the slightest provocation."
+#spr1 "Art/Limestone_Mace_0.tga"
+#spr2 "Art/Limestone_Mace_1.tga"
+
+#mor 11
+
+#weapon 12
+#armor 100
+#armor 135
+#armor 2
+
+#end

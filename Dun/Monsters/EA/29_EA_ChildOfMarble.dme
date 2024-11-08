@@ -1,0 +1,17 @@
+#newmonster $29
+#copystats $9
+#name "Child of Marble"
+#descr "Mage & SC"
+#spr1 "Art/Child_Marble_0.tga"
+#spr2 "Art/Child_Marble_1.tga"
+
+#prot 15
+#mor 11
+#coldres -5
+#poorleader
+#custommagic 740 100
+
+#gcost 10007
+
+#weapon 553
+#end

@@ -1,15 +1,15 @@
-#newmonster 15
-#copystats 1
+#newmonster $15
+#copystats $1
 #name "Archivist"
-#spr1 "Dun/Chronicler_0.tga"
-#spr2 "Dun/Chronicler_1.tga"
+#spr1 "Art/Chronicler_0.tga"
+#spr2 "Art/Chronicler_1.tga"
 
 #okleader
 
 #magicskill 1 1
 #magicskill 4 1
 #magicskill 5 1
-#magicskill 8 3
+#magicskill 9 3
 #custommagic 6400 200
 #custommagic 6400 10
 
