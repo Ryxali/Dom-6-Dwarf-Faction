@@ -8,9 +8,8 @@
 #drawsize 10
 
 #okleader
-#magicskill 5 1
+#magicskill 5 2
 #magicskill 3 1
-#custommagic 4096 10
 #fireres 5
 
 #gcost 10007
