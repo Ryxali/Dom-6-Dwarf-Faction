@@ -8,10 +8,9 @@
 #goodmagicleader
 #gcost 10020
 
-#magicskill 2 1
-#magicskill 3 1
-#custommagic 1668 100
-#custommagic 1668 10
+#magicskill 2 2
+#magicskill 3 2
+#magicskill 0 2
 
 #makemonsters1 $10 1
 #batstartsum1d3 $11
