@@ -1,0 +1,14 @@
+#newmonster $34
+#copystats $15
+#copyspr $15
+#name "Archivist"
+#clearspec
+#holy
+#undead
+#fear 5
+#cold 3
+#coldres 25
+#poisonres 25
+#gcost 0
+
+#end

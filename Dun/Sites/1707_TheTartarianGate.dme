@@ -1,0 +1,19 @@
+-- EA
+#newsite 1707
+#name "The Tartarian Gate"
+#rarity 5
+
+#incscale 3
+
+#summon2 $13
+#summon2 $13
+#summon2 $13
+#summon2 $13
+#summon2 $13
+
+#gems 4 2
+#gems 5 5
+
+#path 5
+#look 3
+#end

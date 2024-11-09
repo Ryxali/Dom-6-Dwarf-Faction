@@ -15,6 +15,8 @@ Priests: Strong, though only recruit-able in the capital, "
 
 #startsite "The Reliquary"
 #startsite "Halls of Shaping"
+#futuresite "The Tartarian Gate"
+#futuresite "Sanctuary"
 
 #cavenation 0
 #likesterr 16

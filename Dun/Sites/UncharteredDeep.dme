@@ -8,3 +8,9 @@
 #adventureruin 25
 #path 8
 #end
+
+#newsite 1800
+#name "Mhór"
+#rarity 5
+#path 8
+#end

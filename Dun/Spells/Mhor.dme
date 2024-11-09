@@ -1,0 +1,137 @@
+#newspell 1600
+#name "Mhòr"
+#descr "Do fix."
+#school 5
+--#researchlevel 8
+#researchlevel 0
+#restricted $3
+
+#path 0 4
+--#pathlevel 0 6
+#pathlevel 0 1
+#path 1 5
+--#pathlevel 1 3
+#pathlevel 1 1
+
+--#fatiguecost 10000
+#fatiguecost 100
+#restricted $3
+
+#effect 10081
+#damage 506 -- id of global ench
+#nreff 1
+#localglobal 1
+#worldvisible 1
+#globallook 4
+#portent "Oh no, oh boi."
+#dispimmune 1
+#onlyatsite "The Reliquary"
+
+#end
+
+-- Progress
+#newevent
+#rarity 13
+#msg "Everybody heals!"
+#req_ench 506 -- id of global ench
+--#req_varzero 1
+#req_unique 1
+#worldheal 50 -- heal specific wounds
+#incvar 1
+#end
+
+-- Bad times
+-- Base chance
+#newevent
+#rarity 0
+#req_myench 506
+#msg "Bad bad times. [The Reliquary]"
+#req_varpos 1
+#req_site 1
+--#req_rare 5
+#nationench 506
+#removesite -1
+#addsite 1707
+#kill 80
+#5com $35
+#3com $33
+#com $34
+#10d6units $32
+#end
+
+-- Death dom chance
+#newevent
+#rarity 0
+#req_myench 506
+#msg "Bad bad times. [The Reliquary]"
+#req_varpos 1
+#req_site 1
+#req_death 1
+#req_rare 10
+#nationench 506
+#removesite -1
+#addsite 1707
+#kill 80
+#5com $35
+#3com $33
+#com $34
+#10d6units $32
+#end
+
+-- Death mage chance
+#newevent 
+#rarity 0
+#req_myench 506
+#msg "Bad bad times. [The Reliquary]"
+#req_varpos 1
+#req_site 1
+#req_pathdeath 3
+#req_rare 10
+#nationench 506
+#removesite -1
+#addsite 1707
+#kill 80
+#5com $35
+#3com $33
+#com $34
+#10d6units $32
+#end
+
+
+-- Good times
+#newevent
+#rarity 0
+#req_myench 506
+#msg "Good good times. [The Reliquary]"
+#req_varpos 1
+#req_site 1
+#nationench 506
+#removesite -1
+#addsite 1708
+#req_growth 1
+#req_rare 10
+#end
+
+#newevent
+#rarity 0
+#req_myench 506
+#msg "Good good times. [The Reliquary]"
+#req_varpos 1
+#req_site 1
+#removesite -1
+#addsite 1708
+#req_growth 1
+#req_rare 10
+#end
+
+#newevent
+#rarity 0
+#req_myench 506
+#msg "Good good times. [The Reliquary]"
+#req_varpos 1
+#req_site 1
+#removesite -1
+#addsite 1708
+#req_pathnature 3
+#req_rare 10
+#end

@@ -2,6 +2,7 @@
 #newspell
 #name "Obair mhòr"
 #descr "When a smith elder has reached the crest of mastery there is but one recourse. The smith must forge their final creation. It will embody every aspect of the creator's character, it will be imbued with every power, and mirror every chink. The resulting construct will bear the name of its' creator, as the smith will now retire to spend the rest of his days in peace."
+#details "Transforms the smith into a durable golem with increased magic paths."
 #school 3
 #researchlevel 6
 #restricted $1

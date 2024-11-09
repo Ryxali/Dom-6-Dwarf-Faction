@@ -1,9 +1,10 @@
 -- EA
-#newsite
+#newsite 1705
 #name "Halls of Shaping"
 #rarity 5
 #homecom $28
 #xp 2
 #gems 3 2
-#path 8
+#path 9
+#look 1
 #end

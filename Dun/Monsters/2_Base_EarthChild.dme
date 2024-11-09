@@ -7,7 +7,7 @@
 #spr2 "Art/Pebble_Basic_1.tga"
 #drawsize -10
 
-#gcost 10006
+#gcost 10005
 #rpcost 7990
 
 #hp 8
