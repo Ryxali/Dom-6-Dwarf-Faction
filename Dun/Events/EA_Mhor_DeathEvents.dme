@@ -1,0 +1,50 @@
+-- Troops
+#newevent
+#rarity 5
+#msg "Legions rise [The Tartarian Gate]"
+#req_myench 506
+#req_site 1
+#nationench 506
+#nolog
+#notext
+#3d3units $32
+#end
+
+-- Shaper
+#newevent
+#rarity 5
+#msg "Legions rise [The Tartarian Gate]"
+#req_myench 506
+#req_site 1
+#req_rare 30
+#nationench 506
+#nolog
+#notext
+#com $33
+#end
+
+-- Archivist
+#newevent
+#rarity 5
+#msg "Legions rise [The Tartarian Gate]"
+#req_myench 506
+#req_site 1
+#req_rare 20
+#nationench 506
+#nolog
+#notext
+#com $34
+#end
+
+-- Keeper
+#newevent
+#rarity 5
+#msg "Legions rise [The Tartarian Gate]"
+#req_myench 506
+#req_site 1
+#req_rare 80
+#nationench 506
+#nolog
+#notext
+#com $35
+#end
