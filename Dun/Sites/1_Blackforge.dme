@@ -1,5 +1,5 @@
 -- LA / MA
-#newsite 1701
+#newsite $1
 #name "Blackforge"
 #rarity 5
 #gems 3 1

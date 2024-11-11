@@ -1,5 +1,5 @@
 -- LA
-#newsite 1702
+#newsite $2
 #name "Dûn Moot"
 #rarity 5
 #incscale 0

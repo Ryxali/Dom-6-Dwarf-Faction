@@ -1,8 +1,9 @@
 #newmonster $34
 #copystats $15
 #copyspr $15
-#name "Archivist"
+#name "Wight Mage"
 #clearspec
+#clearmagic
 #holy
 #undead
 #fear 5
@@ -11,5 +12,10 @@
 #poisonres 25
 #gcost 0
 #mor 18
+#pooramphibian
+
+#magicskill 5 4
+#custommagic 6400 100 -- 256 + 2048 + 4096
+#custommagic 2304 100
 
 #end

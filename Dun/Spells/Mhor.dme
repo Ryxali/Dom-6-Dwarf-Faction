@@ -17,8 +17,7 @@
 #fatiguecost 100
 #restricted $3
 
-#effect 10081
-#damage 506 -- id of global ench
+##globalenchantment $1
 #nreff 1
 #localglobal 1
 #worldvisible 1

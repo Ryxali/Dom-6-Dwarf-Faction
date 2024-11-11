@@ -1,0 +1,23 @@
+#newmonster $33
+#copystats $15
+#copyspr $15
+#name "Lich"
+#clearspec
+#clearmagic
+#holy
+#undead
+#fear 5
+#cold 3
+#coldres 25
+#poisonres 25
+#gcost 0
+#mor 18
+#invulnerable 25
+#immortal
+#pooramphibian
+
+#magicskill 5 4
+#custommagic 6400 100 -- 256 + 2048 + 4096
+#custommagic 2304 100
+
+#end

@@ -49,6 +49,7 @@ Priests: Strong, though only recruit-able in the capital, "
 #addgod 246
 #addgod 245
 
+#startscout $36
 #startcom $16
 #startunittype1 $19
 #startunitnbrs1 20
@@ -65,6 +66,8 @@ Priests: Strong, though only recruit-able in the capital, "
 #addreccom $30
 #addreccom $31
 
+#forestcom $36
+#forestfortcom $36
 #forestcom $26
 #forestfortcom $26
 #forestcom $27

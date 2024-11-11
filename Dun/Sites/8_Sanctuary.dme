@@ -1,17 +1,18 @@
 -- EA
-#newsite 1706
-#name "The Reliquary"
+#newsite $8
+#name "Sanctuary"
 #rarity 5
+#decscale 3
 
 #homecom $14
 #homecom $15
 #homecom $16
 #homemon $13
 
-#gems 1 1
-#gems 4 2
 #gems 5 1
-
+#gems 4 2
+#gems 6 2
+#heal 100
 #path 9
 #look 2
 #end
