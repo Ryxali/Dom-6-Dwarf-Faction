@@ -1,0 +1,60 @@
+-- Drain Life
+#newevent
+#rarity 5
+#req_hostileench $1
+#req_permonth 10
+#req_varneg 2
+#req_growth 0
+#msg "Growth is stolen"
+#incscale 3
+#disease 5
+#end
+
+-- Transform into unblemished maybe?
+
+#newevent
+#rarity 5
+#msg "Transform [Sanctuary]"
+#req_site 1
+#req_myench $1
+#req_monster $13
+#transform 5038
+#nolog
+#notext
+#end
+
+#newevent
+#rarity 5
+#msg "Transform [Sanctuary]"
+#req_site 1
+#req_myench $1
+#req_monster $14
+#transform 5037
+#healaff 100
+#nolog
+#notext
+#end
+
+#newevent
+#rarity 5
+#msg "Transform [Sanctuary]"
+#req_site 1
+#req_myench $1
+#req_monster $15
+#transform 5037
+#healaff 100
+#nolog
+#notext
+#end
+
+#newevent
+#rarity 5
+#msg "Transform [Sanctuary]"
+#req_site 1
+#req_myench $1
+#req_monster $16
+#transform 5039
+#healaff 100
+#nolog
+#notext
+#end

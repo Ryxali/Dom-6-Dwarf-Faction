@@ -1,0 +1,16 @@
+#newmonster $37
+#copystats $15
+#copyspr $15
+#name "Unblemished Mage"
+#clearspec
+#clearmagic
+#holy
+#slowrec
+
+
+#magicskill 4 3
+#magicskill 9 3
+#custommagic 1332 300 -- 8192
+#custommagic 10880 200 -- 8192 + 512 + 128
+#maxage 200
+#end

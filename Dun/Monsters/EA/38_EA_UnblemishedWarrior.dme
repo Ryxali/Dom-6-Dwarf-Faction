@@ -1,0 +1,8 @@
+#newmonster $38
+#copystats $13
+#copyspr $13
+#name "Unblemished Warrior"
+#clearspec
+
+#maxage 200
+#end

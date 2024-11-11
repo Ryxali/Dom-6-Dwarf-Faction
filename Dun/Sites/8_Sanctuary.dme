@@ -4,12 +4,12 @@
 #rarity 5
 #decscale 3
 
-#homecom $14
-#homecom $15
-#homecom $16
-#homemon $13
+-- Unblemished
+#homecom $39
+#homecom $37
+#homemon $38
 
-#gems 5 1
+#gems 1 1
 #gems 4 2
 #gems 6 2
 #heal 100

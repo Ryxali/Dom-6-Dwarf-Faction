@@ -1,0 +1,9 @@
+#newmonster $39
+#copystats $16
+#copyspr $16
+#name "Unblemished Champion"
+#clearspec
+#holy
+#magicskill 9 2
+#maxage 200
+#end

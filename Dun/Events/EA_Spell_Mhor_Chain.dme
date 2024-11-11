@@ -16,7 +16,7 @@
 #msg "Bad bad times. [The Reliquary]"
 #req_varpos 1
 #req_site 1
---#req_rare 5
+#req_rare 5
 #nationench $1
 #removesite -1
 #addsite $7
@@ -76,12 +76,24 @@
 #msg "Good good times. [The Reliquary]"
 #req_varpos 1
 #req_site 1
+#req_rare 5
 #nationench $1
 #removesite -1
 #addsite $8
 #decvar 2
+#end
+
+#newevent
+#rarity 0
+#req_myench $1
+#msg "Good good times. [The Reliquary]"
+#req_varpos 1
+#req_site 1
 #req_growth 1
 #req_rare 10
+#removesite -1
+#addsite $8
+#decvar 2
 #end
 
 #newevent
@@ -91,21 +103,8 @@
 #req_varpos 1
 #req_site 1
 #removesite -1
-#addsite $8
-#decvar 2
-#req_growth 1
-#req_rare 10
-#end
-
-#newevent
-#rarity 0
-#req_myench $1
-#msg "Good good times. [The Reliquary]"
-#req_varpos 1
-#req_site 1
-#removesite -1
-#addsite $8
-#decvar 2
 #req_pathnature 3
 #req_rare 10
+#addsite $8
+#decvar 2
 #end
