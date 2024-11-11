@@ -1,10 +1,12 @@
 #newmonster $32
 #copystats $13
 #copyspr $13
-#name "Dread Guard"
+#name "Blemished"
 #clearspec
 #holy
 #undead
+#hp 42
+#str 25
 #fear 5
 #cold 3
 #coldres 25

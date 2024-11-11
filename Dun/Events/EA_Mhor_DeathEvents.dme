@@ -10,33 +10,20 @@
 #3d3units $32
 #end
 
--- Shaper
+-- Wight Mage
 #newevent
 #rarity 5
 #msg "Legions rise [The Tartarian Gate]"
 #req_myench $1
 #req_site 1
-#req_rare 30
-#nationench $1
-#nolog
-#notext
-#com $33
-#end
-
--- Archivist
-#newevent
-#rarity 5
-#msg "Legions rise [The Tartarian Gate]"
-#req_myench $1
-#req_site 1
-#req_rare 20
+#req_rare 50
 #nationench $1
 #nolog
 #notext
 #com $34
 #end
 
--- Keeper
+-- Commander
 #newevent
 #rarity 5
 #msg "Legions rise [The Tartarian Gate]"
@@ -47,4 +34,15 @@
 #nolog
 #notext
 #com $35
+#end
+
+-- Death
+#newevent
+#rarity 5
+#req_ench $1
+#req_permonth 10
+#req_varpos 2
+#req_minpop 200
+#msg "Death looms."
+#killpop 70
 #end

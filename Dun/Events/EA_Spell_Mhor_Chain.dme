@@ -3,7 +3,6 @@
 #rarity 13
 #msg "Everybody heals!"
 #req_ench $1 -- id of global ench
---#req_varzero 1
 #req_unique 1
 #worldheal 50 -- heal specific wounds
 #incvar 1
@@ -21,6 +20,7 @@
 #nationench $1
 #removesite -1
 #addsite $7
+#incvar 2
 #kill 80
 #5com $35
 #3com $33
@@ -40,6 +40,7 @@
 #nationench $1
 #removesite -1
 #addsite $7
+#incvar 2
 #kill 80
 #5com $35
 #3com $33
@@ -59,6 +60,7 @@
 #nationench $1
 #removesite -1
 #addsite $7
+#incvar 2
 #kill 80
 #5com $35
 #3com $33
@@ -77,6 +79,7 @@
 #nationench $1
 #removesite -1
 #addsite $8
+#decvar 2
 #req_growth 1
 #req_rare 10
 #end
@@ -89,6 +92,7 @@
 #req_site 1
 #removesite -1
 #addsite $8
+#decvar 2
 #req_growth 1
 #req_rare 10
 #end
@@ -101,6 +105,7 @@
 #req_site 1
 #removesite -1
 #addsite $8
+#decvar 2
 #req_pathnature 3
 #req_rare 10
 #end
