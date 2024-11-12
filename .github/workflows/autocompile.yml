@@ -26,3 +26,6 @@ jobs:
         repository: Ryxali/DomCompiler
         latest: true
         fileName: 'DomCompiler-win64.zip'
+
+    - name: Unzip
+      run: 7z x DomCompiler-win64.zip
