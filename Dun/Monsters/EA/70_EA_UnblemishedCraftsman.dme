@@ -1,12 +1,11 @@
-#newmonster $37
+#newmonster $70
 #copystats $15
-#spr1 "Art/Unblemished_Mage_0.tga"
-#spr2 "Art/Unblemished_Mage_1.tga"
-#name "Unblemished Mage"
+#spr1 "Art/Unblemished_Crafter_0.tga"
+#spr2 "Art/Unblemished_Crafter_1.tga"
+#name "Unblemished Crafter"
 #clearspec
 #clearmagic
 #holy
-#slowrec
 
 
 #magicskill 4 3

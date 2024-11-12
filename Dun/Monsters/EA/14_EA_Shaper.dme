@@ -1,8 +1,8 @@
 #newmonster $14
 #copystats $1
-#name "Shaper"
-#spr1 "Art/Shaper_0.tga"
-#spr2 "Art/Shaper_1.tga"
+#name "Earth Shaper"
+#spr1 "Art/Blemished_Shaper_0.tga"
+#spr2 "Art/Blemished_Shaper_1.tga"
 
 #goodleader
 #goodmagicleader

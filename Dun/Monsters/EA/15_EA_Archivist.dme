@@ -1,8 +1,8 @@
 #newmonster $15
 #copystats $1
 #name "Archivist"
-#spr1 "Art/Chronicler_0.tga"
-#spr2 "Art/Chronicler_1.tga"
+#spr1 "Art/Blemished_Archivist_0.tga"
+#spr2 "Art/Blemished_Archivist_1.tga"
 
 #okleader
 

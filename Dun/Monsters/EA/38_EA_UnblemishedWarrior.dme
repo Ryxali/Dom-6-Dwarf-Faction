@@ -1,6 +1,7 @@
 #newmonster $38
 #copystats $13
-#copyspr $13
+#spr1 "Art/Unblemished_Warrior_0.tga"
+#spr2 "Art/Unblemished_Warrior_1.tga"
 #name "Unblemished Warrior"
 #clearspec
 

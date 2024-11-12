@@ -1,8 +1,8 @@
 #newmonster $16
 #copystats $1
 #name "Relic Keeper"
-#spr1 "Art/RelicKeeper_0.tga"
-#spr2 "Art/RelicKeeper_1.tga"
+#spr1 "Art/Blemished_Keeper_0.tga"
+#spr2 "Art/Blemished_Keeper_1.tga"
 
 #expertleader
 #weapon 673
