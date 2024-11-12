@@ -35,6 +35,11 @@ jobs:
       run: 7z x DomCompiler-win-x64.zip
     
     - name: Execute
-  # runner.temp
       run: ${{ format('.\DomCompiler {0}\Dun\Dun.dm Dun', runner.temp) }}
-      #run: .\DomCompiler --help
+  
+      
+    - name: Upload
+      uses: actions/upload-artifact@v4
+      with:
+        name: Dun
+        path: ${{ format('{0}\Dun', runner.temp) }}
