@@ -20,7 +20,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Runs a single command using the runners shell
-    - name: Send greeting
+    - name: Download latest compiler
       uses: robinraju/release-downloader@v1
       with:
         repository: Ryxali/DomCompiler
@@ -29,6 +29,13 @@ jobs:
 
     - name: Unzip
       run: 7z x DomCompiler-win-x64.zip
+
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
     
     - name: Execute
-      run: .\DomCompiler --help
+  # runner.temp
+      run: ${{ format('.\DomCompiler {0}\Dun\Dun.dm Dun', runner.temp) }}
+      #run: .\DomCompiler --help
