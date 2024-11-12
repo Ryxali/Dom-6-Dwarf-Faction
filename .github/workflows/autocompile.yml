@@ -29,3 +29,6 @@ jobs:
 
     - name: Unzip
       run: 7z x DomCompiler-win64.zip
+    
+    - name: Execute
+      run: DomCompiler --help
