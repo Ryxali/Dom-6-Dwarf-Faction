@@ -25,10 +25,10 @@ jobs:
       with:
         repository: Ryxali/DomCompiler
         latest: true
-        fileName: 'DomCompiler-win64.zip'
+        fileName: 'DomCompiler-win-x64.zip'
 
     - name: Unzip
-      run: 7z x DomCompiler-win64.zip
+      run: 7z x DomCompiler-win-x64.zip
     
     - name: Execute
       run: .\DomCompiler --help
