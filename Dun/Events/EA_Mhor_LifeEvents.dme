@@ -29,7 +29,7 @@
 #req_site 1
 #req_myench $1
 #req_monster $14
-#transform 5037
+#transform $70
 #healaff 100
 #nolog
 #notext
@@ -41,7 +41,7 @@
 #req_site 1
 #req_myench $1
 #req_monster $15
-#transform 5037
+#transform $37
 #healaff 100
 #nolog
 #notext
@@ -53,7 +53,7 @@
 #req_site 1
 #req_myench $1
 #req_monster $16
-#transform 5039
+#transform $39
 #healaff 100
 #nolog
 #notext
