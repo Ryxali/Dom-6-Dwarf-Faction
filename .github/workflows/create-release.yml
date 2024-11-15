@@ -35,7 +35,7 @@ jobs:
       run: 7z x DomCompiler-win-x64.zip
     
     - name: Execute
-      run: ${{ format('.\DomCompiler {0}\Dun\Dun.dm Dun', runner.temp) }}
+      run: ${{ format('.\DomCompiler-win-x64\DomCompiler.exe {0}\Dun\Dun.dm Dun', runner.temp) }}
   
     - name: Zip
       run: ${{ format('7z a {0}\Dun.zip {0}\Dun\*', runner.temp) }}
