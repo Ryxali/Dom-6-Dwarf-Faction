@@ -1,14 +1,14 @@
 # This is a basic workflow that is manually triggered
 
-name: CI Build - Main
+name: Create Release
 
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+on: workflow_dispatch
+# push:
+#   branches: [ "main" ]
+#   tags:
+#     -  "v*.*"
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -37,9 +37,14 @@ jobs:
     - name: Execute
       run: ${{ format('.\DomCompiler {0}\Dun\Dun.dm Dun', runner.temp) }}
   
-      
-    - name: Upload
-      uses: actions/upload-artifact@v4
+    - name: Zip
+      run: ${{ format('7z a {0}\Dun.zip {0}\Dun\*', runner.temp) }}
+
+    - name: Create Release
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+      uses: softprops/action-gh-release@v2
       with:
-        name: Dun
-        path: ${{ format('{0}\Dun', runner.temp) }}
+        body_path: ReleaseStub.md
+        draft: true
+        files: ${{ format('{0}\Dun.zip', runner.temp) }}
