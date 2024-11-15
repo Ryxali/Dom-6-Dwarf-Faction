@@ -1,5 +1,5 @@
 #newmonster $70
-#copystats $15
+#copystats $14
 #spr1 "Art/Unblemished_Crafter_0.tga"
 #spr2 "Art/Unblemished_Crafter_1.tga"
 #name "Unblemished Crafter"
@@ -8,9 +8,9 @@
 #holy
 
 
-#magicskill 4 3
-#magicskill 9 3
-#custommagic 1332 300 -- 8192
-#custommagic 10880 200 -- 8192 + 512 + 128
+#magicskill 2 2
+#magicskill 3 2
+#magicskill 0 2
+#custommagic 1664 100 -- 512 1024 128
 #maxage 200
 #end
