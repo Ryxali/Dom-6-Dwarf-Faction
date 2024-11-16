@@ -6,7 +6,6 @@ name: Create Release
 # or API.
 on:
   push:
-    branches: [ "main" ]
     tags:
       -  "v*.*"
 
