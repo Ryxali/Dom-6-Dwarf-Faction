@@ -1,7 +1,8 @@
 #newmonster $34
 #copystats $15
-#copyspr $15
 #name "Wight Mage"
+#spr1 "Art/Blemished_Wight_0.tga"
+#spr2 "Art/Blemished_Wight_1.tga"
 #clearspec
 #clearmagic
 #holy
