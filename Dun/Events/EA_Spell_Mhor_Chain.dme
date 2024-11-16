@@ -22,8 +22,8 @@
 #addsite $7
 #incvar 2
 #kill 80
-#5com $35
-#3com $33
+#4com $35
+#2com $33
 #com $34
 #10d6units $32
 #end
@@ -42,8 +42,8 @@
 #addsite $7
 #incvar 2
 #kill 80
-#5com $35
-#3com $33
+#4com $35
+#2com $33
 #com $34
 #10d6units $32
 #end
@@ -62,8 +62,8 @@
 #addsite $7
 #incvar 2
 #kill 80
-#5com $35
-#3com $33
+#4com $35
+#2com $33
 #com $34
 #10d6units $32
 #end

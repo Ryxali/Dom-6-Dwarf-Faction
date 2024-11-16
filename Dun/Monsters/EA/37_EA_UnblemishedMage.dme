@@ -9,12 +9,12 @@
 #slowrec
 
 
-#magicskill 1 2
+#magicskill 1 1
 #magicskill 4 3
 #magicskill 5 2
 #magicskill 9 3
-#custommagic 2304 200
-#custommagic 6400 10
+#custommagic 18688 200 16384
+#custommagic 22784 10
 
 #maxage 200
 #end
