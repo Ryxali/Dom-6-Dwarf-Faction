@@ -6,12 +6,12 @@
 
 #okleader
 
-#magicskill 1 2
+--#magicskill 1 2
 #magicskill 4 3
 #magicskill 5 2
 #magicskill 9 3
-#custommagic 6400 100
-#custommagic 6400 10
+#custommagic 22784 100 16384
+#custommagic 22784 10
 
 #gcost 10020
 
