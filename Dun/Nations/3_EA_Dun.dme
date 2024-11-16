@@ -1,4 +1,11 @@
--- LA Dûn, Federated Clans
+-- EA Dûn, Children of Stone
+-- Astral 4(5) -> 4(5)
+-- Death 3(4) -> 3
+-- Earth 3 -> 3
+-- Nature 2 -> 2
+-- Air 3(4) -> 1(2)
+-- Water 3 -> 1(2)
+-- Fire 3 -> 1(2)
 #selectnation $3
 #name "Dûn"
 #epithet "Children of Stone"
