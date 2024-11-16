@@ -20,7 +20,5 @@
 #spiritsight
 
 #magicskill 5 4
-#custommagic 6400 100 -- 256 + 2048 + 4096
-#custommagic 2304 100
 
 #end
