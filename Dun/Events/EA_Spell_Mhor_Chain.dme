@@ -1,110 +1,32 @@
--- Progress
+-- Death Outcome, if death <= 0
 #newevent
 #rarity 13
-#msg "Everybody heals!"
-#req_ench $1 -- id of global ench
-#req_unique 1
-#worldheal 50 -- heal specific wounds
-#incvar 1
-#end
-
--- Bad times
--- Base chance
-#newevent
-#rarity 5
-#req_myench $1
-#msg "Bad bad times. [The Reliquary]"
-#req_varpos 1
+#msg "Everybody heals! [The Reliquary]"
+#req_myench $1 -- id of global ench
 #req_site 1
-#req_rare 10
-#nationench $1
+#req_death 0
+#nation -2
 #removesite -1
 #addsite $7
-#incvar 2
+#decvar -1
 #kill 80
 #4com $35
 #2com $33
 #com $34
 #10d6units $32
+#worlddisease 20 -- heal specific wounds
 #end
 
--- Death dom chance
+-- Life Outcome, if growth > 0
 #newevent
-#rarity 5
-#req_myench $1
-#msg "Bad bad times. [The Reliquary]"
-#req_varpos 1
-#req_site 1
-#req_death 1
-#req_rare 20
-#nationench $1
-#removesite -1
-#addsite $7
-#incvar 2
-#kill 80
-#4com $35
-#2com $33
-#com $34
-#10d6units $32
-#end
-
--- Death mage chance
-#newevent 
-#rarity 5
-#req_myench $1
-#msg "Bad bad times. [The Reliquary]"
-#req_varpos 1
-#req_site 1
-#req_pathdeath 3
-#req_rare 20
-#nationench $1
-#removesite -1
-#addsite $7
-#incvar 2
-#kill 80
-#4com $35
-#2com $33
-#com $34
-#10d6units $32
-#end
-
-
--- Good times
-#newevent
-#rarity 5
-#req_myench $1
-#msg "Good good times. [The Reliquary]"
-#req_varpos 1
-#req_site 1
-#req_rare 10
-#nationench $1
-#removesite -1
-#addsite $8
-#decvar 2
-#end
-
-#newevent
-#rarity 5
-#req_myench $1
-#msg "Good good times. [The Reliquary]"
-#req_varpos 1
+#rarity 13
+#msg "Everybody heals! [The Reliquary]"
+#req_myench $1 -- id of global ench
 #req_site 1
 #req_growth 1
-#req_rare 20
+#nation -2
 #removesite -1
 #addsite $8
-#decvar 2
-#end
-
-#newevent
-#rarity 5
-#req_myench $1
-#msg "Good good times. [The Reliquary]"
-#req_varpos 1
-#req_site 1
-#removesite -1
-#req_pathnature 3
-#req_rare 20
-#addsite $8
-#decvar 2
+#incvar -1
+#worldheal 80 -- heal specific wounds
 #end

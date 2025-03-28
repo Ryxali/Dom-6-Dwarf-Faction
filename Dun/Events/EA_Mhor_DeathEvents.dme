@@ -1,4 +1,46 @@
--- Troops
+-- Convert Commander
+#newevent
+#rarity 5
+#msg "Turn into Wight"
+#req_myench $1 -- id of global ench
+#req_varneg -1
+#req_targmnr $14
+#transform $34
+#req_rare 5
+#end
+
+#newevent
+#rarity 5
+#msg "Turn into Wight"
+#req_myench $1 -- id of global ench
+#req_varneg -1
+#req_targmnr $15
+#transform $34
+#req_rare 5
+#end
+
+#newevent
+#rarity 5
+#msg "Turn into Wight"
+#req_myench $1 -- id of global ench
+#req_varneg -1
+#req_targmnr $16
+#transform $35
+#req_rare 5
+#end
+
+#newevent
+#rarity 5
+#msg "Turn into Wight"
+#req_myench $1 -- id of global ench
+#req_varneg -1
+#req_monster $13
+#kill2d6mon $13
+#req_rare 5
+#end
+
+
+-- Spawn Troops
 #newevent
 #rarity 5
 #msg "Legions rise [The Tartarian Gate]"
@@ -8,9 +50,10 @@
 #nolog
 #notext
 #3d3units $32
+#req_rare 20
 #end
 
--- Wight Mage
+-- Spawn Wight Mage
 #newevent
 #rarity 5
 #msg "Legions rise [The Tartarian Gate]"
@@ -23,7 +66,7 @@
 #com $34
 #end
 
--- Commander
+-- Spawn Commander
 #newevent
 #rarity 5
 #msg "Legions rise [The Tartarian Gate]"
@@ -36,7 +79,7 @@
 #com $35
 #end
 
--- Death
+-- Kill pops
 #newevent
 #rarity 5
 #req_ench $1

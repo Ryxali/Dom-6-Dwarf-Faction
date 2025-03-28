@@ -2,12 +2,23 @@
 #newevent
 #rarity 5
 #req_hostileench $1
-#req_permonth 10
-#req_varneg 2
+#req_permonth 6
+#req_varpos -1
 #req_growth 0
 #msg "Growth is stolen"
 #incscale 3
 #disease 5
+#end
+
+#newevent
+#rarity 5
+#req_myench $1
+#req_permonth 6
+#req_varpos -1
+#req_growth 0
+#msg "Growth is stolen"
+#decscale 3
+#incpop 50
 #end
 
 -- Transform into unblemished maybe?
