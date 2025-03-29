@@ -5,15 +5,19 @@
 #spr1 "Art/Redbeard_Brawler_0.tga"
 #spr2 "Art/Redbeard_Brawler_1.tga"
 
+#att 8
+#def 8
+
 #mountainsurvival
-#gold 1
-#addupkeep 2
 #siegebonus 2
+
+#gold 1
+#addupkeep 4
+
 #weapon 267
 #armor 5
 #armor 20
 
-#gcost 8
-#rpcost 9995
+#gcost 6
 
 #end

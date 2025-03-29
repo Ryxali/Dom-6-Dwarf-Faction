@@ -5,12 +5,15 @@
 #spr1 "Art/Blackbeard_Infantry_0.tga"
 #spr2 "Art/Blackbeard_Infantry_1.tga"
 
+#att 10
+#def 9
+#hp 10
+
 #weapon 13
 #armor 20
 #armor 11
 #armor 3
 
-#rpcost 9995
-#gcost 11
+#gcost 10
 
 #end

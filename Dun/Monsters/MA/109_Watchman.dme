@@ -10,7 +10,6 @@
 #armor 20
 #armor 6
 
-#rpcost 9995
-#gcost 10
+#gcost 8
 
 #end
