@@ -1,0 +1,16 @@
+#newmonster $109
+#copystats $4
+#name "Watchman"
+#descr "Light armor, crossbow"
+#spr1 "Art/Blackbeard_Arbalest_0.tga"
+#spr2 "Art/Blackbeard_Arbalest_1.tga"
+
+#weapon 12
+#weapon 25
+#armor 20
+#armor 6
+
+#rpcost 9995
+#gcost 10
+
+#end

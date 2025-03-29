@@ -1,0 +1,20 @@
+#newmonster $102
+#copystats $4
+#name "Mountaineer Captain"
+#nametype 171
+#clearweapons
+#cleararmor
+#descr "Rides a goat."
+#spr1 "Art/Goatrider_0.tga"
+#spr2 "Art/Goatrider_1.tga"
+
+#okleader
+#mountainsurvival
+#weapon 13
+#weapon 331
+#armor 21
+#armor 9
+#armor 3
+
+#rpcost 1
+#end

@@ -1,0 +1,83 @@
+-- MA Dûn, curse of flesh
+#selectnation 122
+#name "Dûn"
+#epithet "Curse of Flesh"
+#era 2
+#descr "Stony Cap-Only. Smiths reign"
+#summary "Race: Slow but hardy
+Military: Infantry. powerful crossbows, devastating ballista, heavy armor
+Magic: Earth, air, water, fire. Homesick sacred master smiths
+Priests: Weak, but heavily armored, though only recruitable in the capital"
+#color 0.47 0.36 0.63
+#secondarycolor 0.49 0.26 0.33
+#flag "Art/flag2.tga"
+
+#startsite "The Great Forge"
+#startsite "Unchartered Deep"
+
+-- #hero1 3534
+-- #hero2 3535
+-- #hero3 3536
+-- #hero4 3537
+
+#addgod 2502
+#addgod 216
+#addgod 265
+#addgod 606
+#addgod 2802
+#addgod 2206
+#addgod 3346
+#addgod 2449
+#addgod 2234
+#addgod 550
+#addgod 3024
+
+#cheapgod20 2206
+#cheapgod40 2803
+
+#startcom $101
+#startunittype1 $110
+#startunitnbrs1 15
+#startunittype2 $109
+#startunitnbrs2 15
+#startscout $100
+
+#addrecunit $107
+#addrecunit $108
+#addrecunit $109
+#addrecunit $110
+#addrecunit $111
+#addrecunit $112
+
+#addreccom $100
+#addreccom $101
+#addreccom $102
+#addreccom $103
+#addreccom $104
+#addreccom $105
+#addreccom $106
+#mountaincom $100
+#cavecom $100
+
+#defcom1 $101
+#defcom2 $102
+#defunit1 $109
+#defunit2 $110
+#defmult1 20
+#defmult2 30
+#wallcom $101
+#wallcom $101
+#wallunit $109
+#wallmult 20
+#guardcom $103
+#guardunit $110
+#guardmult 20
+
+#homerealm 2
+#fortera 2
+#templepic 4
+#homefort 4
+
+#aigoodbless 20
+
+#end

@@ -1,0 +1,29 @@
+-- UNITS / MA (Earth, Fire, Water, Air, Astral, Death)
+-- Prospector (Scout, E 10% EWF 10%), Captain, Knight, Lord Commander, Smith (S) ([EE/FF]), Alchemist ([EF 100%]|[SD 10%]), (Smith Elder)
+-- Miner, Surveyor, Watchman, Guardsman, Shield Bearer, Mauler, Rider, Drummer, Pavise, Puresteel Guard
+-- 3561
+#newmonster $100
+#copystats $4
+#name "Prospector"
+#descr "Scout that can get magic paths. Sometimes organizes a party of seven"
+#spr1 "Art/Redbeard_Chief_0.tga"
+#spr2 "Art/Redbeard_Chief_1.tga"
+
+#mountainsurvival
+#darkvision 50
+
+#custommagic 1024 10
+#custommagic 1664 10
+#stealthy 0
+#noreqlab
+#noleader
+-- #startitem 500
+#warning 1
+
+#weapon 267
+#weapon $8
+#weapon 25
+#armor 20
+#armor 5
+
+#end

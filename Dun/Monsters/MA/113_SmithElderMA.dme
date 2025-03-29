@@ -1,0 +1,8 @@
+#newmonster $113
+#copystats $57
+#copyspr $57
+
+-- #custommagic 22528 10
+#custommagic 24448 10
+
+#end

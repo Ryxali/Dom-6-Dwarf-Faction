@@ -1,0 +1,15 @@
+#newmonster $101
+#copystats $4
+#name "Captain"
+#descr "Basic Leader"
+#spr1 "Art/Blackbeard_Captain_0.tga"
+#spr2 "Art/Blackbeard_Captain_0.tga"
+#okleader
+
+#weapon 12
+#armor 21
+#armor 14
+#armor 4
+
+#rpcost 1
+#end

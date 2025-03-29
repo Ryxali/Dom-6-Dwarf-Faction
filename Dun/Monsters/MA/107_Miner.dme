@@ -1,0 +1,19 @@
+#newmonster $107
+#copystats $4
+#name "Miner"
+#descr "Generates money"
+#spr1 "Art/Redbeard_Brawler_0.tga"
+#spr2 "Art/Redbeard_Brawler_1.tga"
+
+#mountainsurvival
+#gold 1
+#addupkeep 2
+#siegebonus 2
+#weapon 267
+#armor 5
+#armor 20
+
+#gcost 8
+#rpcost 9995
+
+#end

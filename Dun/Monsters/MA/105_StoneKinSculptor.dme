@@ -1,0 +1,19 @@
+#newmonster $105
+$copystats $9
+#name "Stone-kin Sculptor"
+#descr "Harkons to the shapers of the early age. Able to cast either Claymen or Terracotta army, occassionaly also Clayshape."
+#spr1 "Art/Whitebeard_Kinsman_0.tga"
+#spr2 "Art/Whitebeard_Kinsman_1.tga"
+
+#darkvision 50
+#magicskill 3 1
+#magicskill 9 1
+#custommagic 640 100
+#custommagic 1024 10
+#holy
+#poorleader
+#okmagicleader
+#weapon 13
+#armor 5
+
+#end

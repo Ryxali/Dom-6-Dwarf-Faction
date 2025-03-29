@@ -1,0 +1,18 @@
+#newmonster $112
+#copystats $4
+#name "Puresteel Guard"
+#descr "Sacred due to fancy armor."
+#spr1 "Art/OnyxPaladin_0.tga"
+#spr2 "Art/OnyxPaladin_1.tga"
+
+#holy
+
+#weapon $1
+#armor 306
+#armor 302
+#armor 305
+
+#rpcost 9995
+#gcost 23
+
+#end

@@ -1,0 +1,20 @@
+#newmonster $111
+#copystats $4
+#name "Mountaineer"
+#clearweapons
+#cleararmor
+#descr "Cavalry unit"
+#spr1 "Art/Goatrider_0.tga"
+#spr2 "Art/Goatrider_1.tga"
+
+#mountainsurvival
+#weapon 13
+#weapon 331
+#armor 21
+#armor 9
+#armor 3
+
+#rpcost 9995
+#gcost 19
+
+#end

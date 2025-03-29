@@ -1,0 +1,19 @@
+#newmonster $103
+#copystats $4
+#name "Lord Commander"
+#nametype 171
+#clearweapons
+#cleararmor
+#descr "Each dedicated a hall, the lords are vital members for most functions of society. Beyond their role as statesmen they endure a longstanding tradition of the army. All members of the Blackbeard army are clad in dense Puresteel by the specifications of the artisans of Blackforge. There is no compromise in defense and so the dwarves must train to endure the weight. Even so they will find it difficult to fight for extended battles."
+#spr1 "Art/Goatrider_0.tga"
+#spr2 "Art/Goatrider_1.tga"
+
+#rpcost 2
+
+#weapon $1
+#weapon 331
+#armor 306
+#armor 303
+
+#expertleader
+#end

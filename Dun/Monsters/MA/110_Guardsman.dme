@@ -1,0 +1,16 @@
+#newmonster $110
+#copystats $4
+#name "Guardsman"
+#descr "Standard infantry"
+#spr1 "Art/Blackbeard_Infantry_0.tga"
+#spr2 "Art/Blackbeard_Infantry_1.tga"
+
+#weapon 13
+#armor 20
+#armor 11
+#armor 3
+
+#rpcost 9995
+#gcost 11
+
+#end
