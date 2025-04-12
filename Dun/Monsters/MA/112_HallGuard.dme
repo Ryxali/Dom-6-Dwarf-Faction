@@ -1,0 +1,22 @@
+#newmonster $112
+#copystats $4
+#name "Hall Guard"
+#descr "Standard infantry"
+#spr1 "Art/Blackbeard_Infantry_0.tga"
+#spr2 "Art/Blackbeard_Infantry_1.tga"
+
+#hp 13
+#str 12
+#att 11
+#def 10
+#mor 13
+#castledef 2
+
+#weapon 13
+#armor 20
+#armor 14
+#armor 4
+
+#gcost 16
+
+#end

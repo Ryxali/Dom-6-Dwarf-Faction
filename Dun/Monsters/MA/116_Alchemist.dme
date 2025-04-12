@@ -1,0 +1,16 @@
+#newmonster $116
+#copystats $4
+#name "Alchemist"
+#descr "Offshoot magic paths. Otherwise converts gems to gold."
+#spr1 "Art/Whitebeard_Sage_0.tga"
+#spr2 "Art/Whitebeard_Sage_1.tga"
+
+#custommagic FE 100
+#rpcost 2
+#alchemy 50
+#researchbonus 2
+#poorleader
+
+#weapon 499
+
+#end

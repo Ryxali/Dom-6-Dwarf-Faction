@@ -2,10 +2,10 @@
 #newsite $10
 #name "The Great Forge"
 #rarity 5
-#gems 3 1
-#gems 0 1
+#gems F
 #res 50
-#homecom $113
+#homecom $57
+#homemon $115
 #path 0
 #wallunit $51
 #wallmult 2

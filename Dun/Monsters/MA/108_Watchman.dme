@@ -1,4 +1,4 @@
-#newmonster $109
+#newmonster $108
 #copystats $4
 #name "Watchman"
 #descr "Light armor, crossbow"
@@ -8,7 +8,7 @@
 #weapon 12
 #weapon 25
 #armor 20
-#armor 6
+#armor 8
 
 #gcost 8
 

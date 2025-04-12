@@ -1,0 +1,8 @@
+-- LA / MA
+#newsite $11
+#name "The Hall of Stone"
+#rarity 5
+#gems EW
+#homecom $118
+#path 0
+#end

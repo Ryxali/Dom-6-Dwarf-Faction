@@ -13,6 +13,7 @@ Priests: Weak, but heavily armored, though only recruitable in the capital"
 #flag "Art/flag2.tga"
 
 #startsite "The Great Forge"
+#startsite "The Hall of Stone"
 #startsite "Unchartered Deep"
 
 -- #hero1 3534
@@ -48,6 +49,9 @@ Priests: Weak, but heavily armored, though only recruitable in the capital"
 #addrecunit $110
 #addrecunit $111
 #addrecunit $112
+#addrecunit $113
+#addrecunit $114
+#addrecunit $115
 
 #addreccom $100
 #addreccom $101
@@ -56,13 +60,15 @@ Priests: Weak, but heavily armored, though only recruitable in the capital"
 #addreccom $104
 #addreccom $105
 #addreccom $106
+#addreccom $116
+#addreccom $117
 #mountaincom $100
 #cavecom $100
 
 #defcom1 $101
 #defcom2 $102
 #defunit1 $109
-#defunit2 $110
+#defunit2 $111
 #defmult1 20
 #defmult2 30
 #wallcom $101
@@ -70,7 +76,7 @@ Priests: Weak, but heavily armored, though only recruitable in the capital"
 #wallunit $109
 #wallmult 20
 #guardcom $103
-#guardunit $110
+#guardunit $112
 #guardmult 20
 
 #homerealm 2

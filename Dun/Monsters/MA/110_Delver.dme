@@ -1,0 +1,16 @@
+#newmonster $110
+#copystats $4
+#name "Delver"
+#descr "Offshoot magic paths. Otherwise converts gems to gold."
+#spr1 "Art/Blackbeard_Obair_0.tga"
+#spr2 "Art/Blackbeard_Obair_1.tga"
+
+#weapon 13
+#armor 13
+#armor 20
+
+#darkvision 50
+
+#gcost 9
+
+#end

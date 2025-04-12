@@ -1,4 +1,4 @@
-#newmonster $103
+#newmonster $105
 #copystats $4
 #name "Lord Commander"
 #nametype 171
@@ -8,12 +8,16 @@
 #spr1 "Art/Goatrider_0.tga"
 #spr2 "Art/Goatrider_1.tga"
 
+#mountmnr $48
+#unmountedspr1 "Art/Blackbeard_Infantry_0.tga"
+#unmountedspr2 "Art/Blackbeard_Infantry_1.tga"
+
 #rpcost 2
 
 #weapon $1
 #weapon 331
-#armor 306
-#armor 303
+#armor 21
+#armor 18
 
 #expertleader
 #end

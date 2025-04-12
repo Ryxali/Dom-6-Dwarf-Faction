@@ -2,9 +2,7 @@
 #newsite $9
 #name "Unchartered Deep"
 #rarity 5
-#gems 3 1
-#gems 0 1
-#gems 2 1
+#gems EF
 #adventureruin 25
 #path 8
 #end

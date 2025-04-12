@@ -1,4 +1,4 @@
-#newmonster $102
+#newmonster $103
 #copystats $4
 #name "Mountaineer Captain"
 #nametype 171
@@ -8,13 +8,20 @@
 #spr1 "Art/Goatrider_0.tga"
 #spr2 "Art/Goatrider_1.tga"
 
+#mountmnr $48
+#unmountedspr1 "Art/Blackbeard_Infantry_0.tga"
+#unmountedspr2 "Art/Blackbeard_Infantry_1.tga"
+
 #okleader
 #mountainsurvival
 #weapon 13
 #weapon 331
 #armor 21
-#armor 9
+#armor 8
 #armor 3
+#att 10
+#def 9
+#skilledrider 1
 
 #rpcost 1
 #end

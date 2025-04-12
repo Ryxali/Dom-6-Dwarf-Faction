@@ -1,4 +1,4 @@
-#newmonster $108
+#newmonster $109
 #copystats $4
 #name "Spelunker"
 #descr "Many who aspire to explore the Unknown Deep first start out as scrubs. Stealthy and often travel in parties of seven strong. Got bottles of blessed water a plenty from Marignon."
@@ -6,6 +6,7 @@
 #spr2 "Art/Redbeard_Berserker_1.tga"
 #stealthy 0
 #bodyguard 2
+#darkvision 50
 
 #weapon 267
 #weapon $8

@@ -1,0 +1,20 @@
+#newmonster $117
+#copystats $4
+#name "Smith"
+#descr "Sacred. Forges wondrous items & capable on the battelfield."
+#spr1 "Art/Blackbeard_Artisan_0.tga"
+#spr2 "Art/Blackbeard_Artisan_1.tga"
+
+#magicskill EFHH
+#custommagic EF 50 -- earth or fire
+#custommagic EA 50 -- earth or air
+#custommagic EW 50 -- earth or water
+#holy
+#mastersmith 1
+#resources 5
+#poorleader
+
+#weapon 13
+#armor 5
+
+#end

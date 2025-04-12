@@ -1,5 +1,5 @@
-#newmonster $111
-#copystats $4
+#newmonster $114
+#copystats $113
 #name "Mountaineer"
 #clearweapons
 #cleararmor
@@ -7,13 +7,13 @@
 #spr1 "Art/Goatrider_0.tga"
 #spr2 "Art/Goatrider_1.tga"
 
-#mountainsurvival
+#mountmnr $48
+#unmountedspr1 "Art/Blackbeard_Infantry_0.tga"
+#unmountedspr2 "Art/Blackbeard_Infantry_1.tga"
 #weapon 13
-#weapon 331
 #armor 21
-#armor 9
+#armor 8
 #armor 3
 
-#gcost 19
 
 #end
