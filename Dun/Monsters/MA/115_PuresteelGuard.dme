@@ -7,6 +7,13 @@
 
 #holy
 
+#hp 16
+#str 12
+#att 12
+#def 11
+#mor 14
+#mr 13
+
 #weapon $1
 #armor $6
 #armor $2

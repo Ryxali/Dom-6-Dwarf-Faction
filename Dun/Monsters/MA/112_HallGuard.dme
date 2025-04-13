@@ -5,7 +5,7 @@
 #spr1 "Art/Blackbeard_Infantry_0.tga"
 #spr2 "Art/Blackbeard_Infantry_1.tga"
 
-#hp 13
+#hp 12
 #str 12
 #att 11
 #def 10
